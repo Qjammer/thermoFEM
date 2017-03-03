@@ -1,9 +1,10 @@
 Group {
 	Steel = Region[20];
+	Surface = Region [21];
 }
 
 Function {
-	f[]=5*X[]*Y[];
+	f[]=23*X[]*Y[];
 }
 
 Jacobian {
@@ -71,7 +72,18 @@ Integration {
 	}
 }
 
-//Constraint
+Constraint{
+	{
+		Name BoundT;
+		Type Assign;
+		Case {
+			{
+				Region Surface;
+				Value 10;
+			}
+		}
+	}
+}
 
 FunctionSpace{
 	{
@@ -84,6 +96,13 @@ FunctionSpace{
 				Function BF_Node;
 				Support Steel;
 				Entity NodesOf[All];
+			}
+		}
+		Constraint {
+			{
+				NameOfCoef vn;
+				EntityType NodesOf;
+				NameOfConstraint BoundT;
 			}
 		}
 	}
@@ -103,12 +122,6 @@ Formulation{
 		Equation {
 			Galerkin {
 				[Dof{Grad u}, {Grad u}];
-				In Steel;
-				Jacobian JVol;
-				Integration I1;
-			}
-			Galerkin {
-				[Dof{u}, {u}];
 				In Steel;
 				Jacobian JVol;
 				Integration I1;

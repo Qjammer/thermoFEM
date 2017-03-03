@@ -1,0 +1,1741 @@
+Info    : -------------------------------------------------------
+Info    : Gmsh version   : 2.16.0
+Info    : Build OS       : Linux
+Info    : Build options  : Ann Bamg Bfgs Blas(Generic) Blossom Cairo Chaco DIntegration Dlopen Fltk GMP Gmm Jpeg Kbipack Lapack(Generic) LinuxJoystick MathEx Med Mesh Metis Mmg3d Mpeg NativeFileChooser Netgen ONELAB ONELABMetamodel OpenCascade OpenGL OptHom Parser Plugins Png Post Salome Solver Taucs TetGen/BR Tetgen1.5 Voro3D Zlib
+Info    : Build date     : 20170226
+Info    : Build host     : krop
+Info    : Packager       : ramiro
+Info    : Executable     : /usr/bin/gmsh
+Info    : Home directory : /home/ramiro/
+Info    : Launch date    : Wed Mar  1 20:57:12 2017
+Info    : Command line   : gmsh
+Info    : -------------------------------------------------------
+Info    : Reading '/home/ramiro/Projects/thermoFEM/cad/testpot.stl'...
+Info    : Mesh is in binary format
+Info    : 60942 facets in solid 0
+Info    : Done reading '/home/ramiro/Projects/thermoFEM/cad/testpot.stl'
+Info    : Reading '/home/ramiro/Projects/thermoFEM/cad/testpot.geo'...
+Info    : Reading '/home/ramiro/Projects/thermoFEM/cad/testpot.stl'...
+Info    : Mesh is in binary format
+Info    : 60942 facets in solid 0
+Info    : Done reading '/home/ramiro/Projects/thermoFEM/cad/testpot.stl'
+Info    : Done reading '/home/ramiro/Projects/thermoFEM/cad/testpot.geo'
+Info    : Reading '/home/ramiro/Projects/thermoFEM/cad/testpot.geo'...
+Info    : Reading '/home/ramiro/Projects/thermoFEM/cad/testpot.stl'...
+Info    : Mesh is in binary format
+Info    : 60942 facets in solid 0
+Info    : Done reading '/home/ramiro/Projects/thermoFEM/cad/testpot.stl'
+Info    : Done reading '/home/ramiro/Projects/thermoFEM/cad/testpot.geo'
+Info    : Done
+Info    : Calling 'terminator -e 'vim /home/ramiro/Projects/thermoFEM/cad/testpot.geo' &'
+Info    : Calling '"/home/ramiro/Downloads/getdp-2.11.0-Linux/bin/getdp"  -onelab "getDP" /home/ramiro/.gmshsock2 &'
+Info    : Running 'getDP'...
+Info    : getDP - Performing ONELAB 'initialize'
+Info    : Done running 'getDP'
+Info    : Done
+Info    : Calling '"/home/ramiro/Downloads/getdp-2.11.0-Linux/bin/getdp"   "/home/ramiro/Projects/thermoFEM/cad/testpot.pro"    -onelab "getDP" /home/ramiro/.gmshsock2 &'
+Info    : Running 'getDP'...
+Info    : getDP - Performing ONELAB 'check'
+Info    : getDP - Running '/home/ramiro/Downloads/getdp-2.11.0-Linux/bin/getdp /home/ramiro/Projects/thermoFEM/cad/testpot.pro -onelab getDP /home/ramiro/.gmshsock2' [GetDP 2.11.0, 1 node]
+Info    : getDP - Started (Wed Mar  1 20:59:08 2017, Wall = 0.000994921s, CPU = 0.023333s, Mem = 125.402Mb, Recv/Send = 6.67572e-05/0.000530243Mb)
+Info    : getDP - Got mesh name from Onelab: '/home/ramiro/Projects/thermoFEM/cad/testpot.msh'
+Info    : getDP - Initializing Gmsh
+Info    : getDP - Loading problem definition '/home/ramiro/Projects/thermoFEM/cad/testpot.pro'
+Error   : getDP - '/home/ramiro/Projects/thermoFEM/cad/testpot.pro', line 2 : syntax error (")
+Info    : Done running 'getDP'
+Info    : Done
+Info    : Skipping mesh generation: assuming '/home/ramiro/Projects/thermoFEM/cad/testpot.msh' is up-to-date (use Solver.AutoMesh=2 to force mesh generation)
+Info    : Calling '"/home/ramiro/Downloads/getdp-2.11.0-Linux/bin/getdp"   "/home/ramiro/Projects/thermoFEM/cad/testpot.pro"  -solve -pos  -onelab "getDP" /home/ramiro/.gmshsock2 &'
+Info    : Running 'getDP'...
+Info    : getDP - Performing ONELAB 'compute'
+Info    : getDP - Running '/home/ramiro/Downloads/getdp-2.11.0-Linux/bin/getdp /home/ramiro/Projects/thermoFEM/cad/testpot.pro -solve -pos -onelab getDP /home/ramiro/.gmshsock2' [GetDP 2.11.0, 1 node]
+Info    : getDP - Started (Wed Mar  1 20:59:25 2017, Wall = 0.000378132s, CPU = 0.023333s, Mem = 124.812Mb, Recv/Send = 6.86646e-05/0.000543594Mb)
+Info    : getDP - Got mesh name from Onelab: '/home/ramiro/Projects/thermoFEM/cad/testpot.msh'
+Info    : getDP - Initializing Gmsh
+Info    : getDP - Loading problem definition '/home/ramiro/Projects/thermoFEM/cad/testpot.pro'
+Error   : getDP - '/home/ramiro/Projects/thermoFEM/cad/testpot.pro', line 2 : syntax error (")
+Info    : Done running 'getDP'
+Info    : Saving database '/home/ramiro/Projects/thermoFEM/cad/testpot.db'...
+Info    : Done saving database '/home/ramiro/Projects/thermoFEM/cad/testpot.db'
+Info    : Done
+Info    : Calling '"/home/ramiro/Downloads/getdp-2.11.0-Linux/bin/getdp"   "/home/ramiro/Projects/thermoFEM/cad/testpot.pro"  -solve -pos  -onelab "getDP" /home/ramiro/.gmshsock2 &'
+Info    : Running 'getDP'...
+Info    : getDP - Performing ONELAB 'compute'
+Info    : getDP - Running '/home/ramiro/Downloads/getdp-2.11.0-Linux/bin/getdp /home/ramiro/Projects/thermoFEM/cad/testpot.pro -solve -pos -onelab getDP /home/ramiro/.gmshsock2' [GetDP 2.11.0, 1 node]
+Info    : getDP - Started (Wed Mar  1 20:59:38 2017, Wall = 0.00138402s, CPU = 0.016666s, Mem = 99.0078Mb, Recv/Send = 6.86646e-05/0.000543594Mb)
+Info    : getDP - Got mesh name from Onelab: '/home/ramiro/Projects/thermoFEM/cad/testpot.msh'
+Info    : getDP - Initializing Gmsh
+Info    : getDP - Loading problem definition '/home/ramiro/Projects/thermoFEM/cad/testpot.pro'
+Error   : getDP - '/home/ramiro/Projects/thermoFEM/cad/testpot.pro', line 2 : Unknown Constant: Steel
+Info    : Done running 'getDP'
+Info    : Saving database '/home/ramiro/Projects/thermoFEM/cad/testpot.db'...
+Info    : Done saving database '/home/ramiro/Projects/thermoFEM/cad/testpot.db'
+Info    : Done
+Info    : Calling '"/home/ramiro/Downloads/getdp-2.11.0-Linux/bin/getdp"   "/home/ramiro/Projects/thermoFEM/cad/testpot.pro"    -onelab "getDP" /home/ramiro/.gmshsock2 &'
+Info    : Running 'getDP'...
+Info    : getDP - Performing ONELAB 'check'
+Info    : getDP - Running '/home/ramiro/Downloads/getdp-2.11.0-Linux/bin/getdp /home/ramiro/Projects/thermoFEM/cad/testpot.pro -onelab getDP /home/ramiro/.gmshsock2' [GetDP 2.11.0, 1 node]
+Info    : getDP - Started (Wed Mar  1 21:00:22 2017, Wall = 0.00113297s, CPU = 0.023333s, Mem = 99.6211Mb, Recv/Send = 6.67572e-05/0.000530243Mb)
+Info    : getDP - Got mesh name from Onelab: '/home/ramiro/Projects/thermoFEM/cad/testpot.msh'
+Info    : getDP - Initializing Gmsh
+Info    : getDP - Loading problem definition '/home/ramiro/Projects/thermoFEM/cad/testpot.pro'
+Error   : getDP - '/home/ramiro/Projects/thermoFEM/cad/testpot.pro', line 2 : Unknown Constant: Steel
+Info    : Done running 'getDP'
+Info    : Done
+Info    : Calling '"/home/ramiro/Downloads/getdp-2.11.0-Linux/bin/getdp"   "/home/ramiro/Projects/thermoFEM/cad/testpot.pro"    -onelab "getDP" /home/ramiro/.gmshsock2 &'
+Info    : Running 'getDP'...
+Info    : getDP - Performing ONELAB 'check'
+Info    : getDP - Running '/home/ramiro/Downloads/getdp-2.11.0-Linux/bin/getdp /home/ramiro/Projects/thermoFEM/cad/testpot.pro -onelab getDP /home/ramiro/.gmshsock2' [GetDP 2.11.0, 1 node]
+Info    : getDP - Started (Wed Mar  1 21:00:23 2017, Wall = 0.000943899s, CPU = 0.019999s, Mem = 102.168Mb, Recv/Send = 6.67572e-05/0.000530243Mb)
+Info    : getDP - Got mesh name from Onelab: '/home/ramiro/Projects/thermoFEM/cad/testpot.msh'
+Info    : getDP - Initializing Gmsh
+Info    : getDP - Loading problem definition '/home/ramiro/Projects/thermoFEM/cad/testpot.pro'
+Error   : getDP - '/home/ramiro/Projects/thermoFEM/cad/testpot.pro', line 2 : Unknown Constant: Steel
+Info    : Done running 'getDP'
+Info    : Done
+Info    : Calling '"/home/ramiro/Downloads/getdp-2.11.0-Linux/bin/getdp"   "/home/ramiro/Projects/thermoFEM/cad/testpot.pro"    -onelab "getDP" /home/ramiro/.gmshsock2 &'
+Info    : Running 'getDP'...
+Info    : getDP - Performing ONELAB 'check'
+Info    : getDP - Running '/home/ramiro/Downloads/getdp-2.11.0-Linux/bin/getdp /home/ramiro/Projects/thermoFEM/cad/testpot.pro -onelab getDP /home/ramiro/.gmshsock2' [GetDP 2.11.0, 1 node]
+Info    : getDP - Started (Wed Mar  1 21:00:24 2017, Wall = 0.000432014s, CPU = 0.026666s, Mem = 108.328Mb, Recv/Send = 6.67572e-05/0.000530243Mb)
+Info    : getDP - Got mesh name from Onelab: '/home/ramiro/Projects/thermoFEM/cad/testpot.msh'
+Info    : getDP - Initializing Gmsh
+Info    : getDP - Loading problem definition '/home/ramiro/Projects/thermoFEM/cad/testpot.pro'
+Error   : getDP - '/home/ramiro/Projects/thermoFEM/cad/testpot.pro', line 2 : Unknown Constant: Steel
+Info    : Done running 'getDP'
+Info    : Done
+Info    : Calling '"/home/ramiro/Downloads/getdp-2.11.0-Linux/bin/getdp"   "/home/ramiro/Projects/thermoFEM/cad/testpot.pro"  -solve -pos  -onelab "getDP" /home/ramiro/.gmshsock2 &'
+Info    : Running 'getDP'...
+Info    : getDP - Performing ONELAB 'compute'
+Info    : getDP - Running '/home/ramiro/Downloads/getdp-2.11.0-Linux/bin/getdp /home/ramiro/Projects/thermoFEM/cad/testpot.pro -solve -pos -onelab getDP /home/ramiro/.gmshsock2' [GetDP 2.11.0, 1 node]
+Info    : getDP - Started (Wed Mar  1 21:00:35 2017, Wall = 0.00112295s, CPU = 0.019999s, Mem = 101.555Mb, Recv/Send = 6.86646e-05/0.000543594Mb)
+Info    : getDP - Got mesh name from Onelab: '/home/ramiro/Projects/thermoFEM/cad/testpot.msh'
+Info    : getDP - Initializing Gmsh
+Info    : getDP - Loading problem definition '/home/ramiro/Projects/thermoFEM/cad/testpot.pro'
+Info    : getDP - Selected Resolution 'Resolution1'
+Info    : getDP - Loading Geometric data '/home/ramiro/Projects/thermoFEM/cad/testpot.msh'
+Info    : getDP - System 'Syst' : Real
+Info    : getDP - P r e - P r o c e s s i n g . . .
+Info    : getDP - Treatment Formulation 'Formulation1'
+Info    : getDP - System 1/1: 0 Dofs
+Info    : getDP - (Wall = 0.00355601s, CPU = 0.023333s, Mem = 101.555Mb, Recv/Send = 0.000777245/0.00195026Mb)
+Info    : getDP - E n d   P r e - P r o c e s s i n g
+Info    : getDP - P r o c e s s i n g . . .
+Info    : getDP - Generate[Syst]
+Warning : getDP - Generated system is of dimension zero
+Info    : getDP - Solve[Syst]
+Warning : getDP - Zero-size system: skipping solve!
+Info    : getDP - SaveSolution[Syst]
+Info    : getDP - (Wall = 0.00525689s, CPU = 0.023333s, Mem = 101.555Mb, Recv/Send = 0.0010519/0.00282288Mb)
+Info    : getDP - E n d   P r o c e s s i n g
+Info    : getDP - P o s t - P r o c e s s i n g . . .
+Info    : getDP - NameOfSystem not set in PostProcessing: selected 'Syst'
+Info    : getDP - Selected PostProcessing 'PostProc1'
+Info    : getDP - Selected Mesh '/home/ramiro/Projects/thermoFEM/cad/testpot.msh'
+Info    : getDP - PostOperation 1/1 
+Info    : getDP -           > '/home/ramiro/Projects/thermoFEM/cad/outfile.pos'
+Info    : Reading '/home/ramiro/Projects/thermoFEM/cad/outfile.pos'...
+Info    : Done reading '/home/ramiro/Projects/thermoFEM/cad/outfile.pos'
+Info    : getDP - (Wall = 0.0452569s, CPU = 0.039999s, Mem = 102.754Mb, Recv/Send = 0.00114632/0.00366211Mb)
+Info    : getDP - E n d   P o s t - P r o c e s s i n g
+Info    : getDP - Stopped (Wed Mar  1 21:00:35 2017, Wall = 0.0453038s, CPU = 0.039999s, Mem = 102.754Mb, Recv/Send = 0.00114632/0.00379848Mb)
+Info    : Done running 'getDP'
+Info    : Saving database '/home/ramiro/Projects/thermoFEM/cad/testpot.db'...
+Info    : Done saving database '/home/ramiro/Projects/thermoFEM/cad/testpot.db'
+Info    : Done
+Info    : Finalized high order topology of periodic connections
+Info    : Meshing 1D...
+Info    : Done meshing 1D (0 s)
+Info    : Meshing 2D...
+Info    : Done meshing 2D (7.39098e-05 s)
+Info    : Meshing 3D...
+Info    : Delaunay Meshing 1 volumes with 1 connected components
+Info    : Meshing volume 3 (Delaunay)
+Info    : 30473 points 152480 edges and 60942 faces in the initial mesh
+Info    : Found region 3
+Info    : 0 points created - Worst tet radius is 63.779 (PTS removed 0 0)
+Info    : 3D point insertion terminated (30482 points created):
+Info    :  - 7 Delaunay cavities modified for star shapeness
+Info    :  - 404 points could not be inserted
+Info    :  - 91588 tetrahedra created in 0.023334 sec. (3925087 tets/sec.)
+Info    : Done meshing 3D (2.83 s)
+Info    : 30482 vertices 152530 elements
+Info    : Writing '/home/ramiro/Projects/thermoFEM/cad/testpot.msh'...
+Info    : Done writing '/home/ramiro/Projects/thermoFEM/cad/testpot.msh'
+Info    : Reading '/home/ramiro/Projects/thermoFEM/cad/testpot.geo'...
+Info    : Reading '/home/ramiro/Projects/thermoFEM/cad/testpot.stl'...
+Info    : Mesh is in binary format
+Info    : 60942 facets in solid 0
+Info    : Done reading '/home/ramiro/Projects/thermoFEM/cad/testpot.stl'
+Info    : Done reading '/home/ramiro/Projects/thermoFEM/cad/testpot.geo'
+Info    : Finalized high order topology of periodic connections
+Info    : Meshing 1D...
+Info    : Done meshing 1D (0 s)
+Info    : Meshing 2D...
+Info    : Done meshing 2D (0.000109911 s)
+Info    : Meshing 3D...
+Info    : Delaunay Meshing 1 volumes with 1 connected components
+Info    : Meshing volume 3 (Delaunay)
+Error   : Self intersecting surface mesh, computing intersections (this could take a while)
+Error   : Surface mesh is wrong, cannot do the 3D mesh
+Info    : Done meshing 3D (0.006667 s)
+Info    : 0 vertices 0 elements
+Error   : ------------------------------
+Error   : Mesh generation error summary
+Error   :     0 warnings
+Error   :     2 errors
+Error   : Check the full log for details
+Error   : ------------------------------
+Info    : Writing '/home/ramiro/Projects/thermoFEM/cad/testpot.msh'...
+Info    : Done writing '/home/ramiro/Projects/thermoFEM/cad/testpot.msh'
+Info    : Calling '"/home/ramiro/Downloads/getdp-2.11.0-Linux/bin/getdp"   "/home/ramiro/Projects/thermoFEM/cad/testpot.pro"  -solve -pos  -onelab "getDP" /home/ramiro/.gmshsock2 &'
+Info    : Running 'getDP'...
+Info    : getDP - Performing ONELAB 'compute'
+Info    : getDP - Running '/home/ramiro/Downloads/getdp-2.11.0-Linux/bin/getdp /home/ramiro/Projects/thermoFEM/cad/testpot.pro -solve -pos -onelab getDP /home/ramiro/.gmshsock2' [GetDP 2.11.0, 1 node]
+Info    : getDP - Started (Wed Mar  1 21:01:07 2017, Wall = 0.000324011s, CPU = 0.023333s, Mem = 104.516Mb, Recv/Send = 6.86646e-05/0.000543594Mb)
+Info    : getDP - Got mesh name from Onelab: '/home/ramiro/Projects/thermoFEM/cad/testpot.msh'
+Info    : getDP - Initializing Gmsh
+Info    : getDP - Loading problem definition '/home/ramiro/Projects/thermoFEM/cad/testpot.pro'
+Info    : getDP - Selected Resolution 'Resolution1'
+Info    : getDP - Loading Geometric data '/home/ramiro/Projects/thermoFEM/cad/testpot.msh'
+Info    : getDP - System 'Syst' : Real
+Info    : getDP - P r e - P r o c e s s i n g . . .
+Info    : getDP - Treatment Formulation 'Formulation1'
+Info    : getDP - System 1/1: 0 Dofs
+Info    : getDP - (Wall = 0.00552702s, CPU = 0.023333s, Mem = 104.516Mb, Recv/Send = 0.000940323/0.00196648Mb)
+Info    : getDP - E n d   P r e - P r o c e s s i n g
+Info    : getDP - P r o c e s s i n g . . .
+Info    : getDP - Generate[Syst]
+Warning : getDP - Generated system is of dimension zero
+Info    : getDP - Solve[Syst]
+Warning : getDP - Zero-size system: skipping solve!
+Info    : getDP - SaveSolution[Syst]
+Info    : getDP - (Wall = 0.0105219s, CPU = 0.026666s, Mem = 104.516Mb, Recv/Send = 0.00121498/0.00283909Mb)
+Info    : getDP - E n d   P r o c e s s i n g
+Info    : getDP - P o s t - P r o c e s s i n g . . .
+Info    : getDP - NameOfSystem not set in PostProcessing: selected 'Syst'
+Info    : getDP - Selected PostProcessing 'PostProc1'
+Info    : getDP - Selected Mesh '/home/ramiro/Projects/thermoFEM/cad/testpot.msh'
+Info    : getDP - PostOperation 1/1 
+Info    : getDP -           > '/home/ramiro/Projects/thermoFEM/cad/outfile.pos'
+Info    : Reading '/home/ramiro/Projects/thermoFEM/cad/outfile.pos'...
+Info    : Done reading '/home/ramiro/Projects/thermoFEM/cad/outfile.pos'
+Info    : getDP - (Wall = 0.02214s, CPU = 0.026666s, Mem = 104.516Mb, Recv/Send = 0.00145245/0.00368595Mb)
+Info    : getDP - E n d   P o s t - P r o c e s s i n g
+Info    : getDP - Stopped (Wed Mar  1 21:01:07 2017, Wall = 0.0221789s, CPU = 0.026666s, Mem = 104.516Mb, Recv/Send = 0.00145245/0.00382042Mb)
+Info    : Done running 'getDP'
+Info    : Saving database '/home/ramiro/Projects/thermoFEM/cad/testpot.db'...
+Info    : Done saving database '/home/ramiro/Projects/thermoFEM/cad/testpot.db'
+Info    : Done
+Info    : Reading '/home/ramiro/Projects/thermoFEM/cad/testpot.geo'...
+Info    : Reading '/home/ramiro/Projects/thermoFEM/cad/testpot.stl'...
+Info    : Mesh is in binary format
+Info    : 60942 facets in solid 0
+Info    : Done reading '/home/ramiro/Projects/thermoFEM/cad/testpot.stl'
+Info    : Done reading '/home/ramiro/Projects/thermoFEM/cad/testpot.geo'
+Info    : Calling '"/home/ramiro/Downloads/getdp-2.11.0-Linux/bin/getdp"   "/home/ramiro/Projects/thermoFEM/cad/testpot.pro"    -onelab "getDP" /home/ramiro/.gmshsock2 &'
+Info    : Running 'getDP'...
+Info    : getDP - Performing ONELAB 'check'
+Info    : getDP - Running '/home/ramiro/Downloads/getdp-2.11.0-Linux/bin/getdp /home/ramiro/Projects/thermoFEM/cad/testpot.pro -onelab getDP /home/ramiro/.gmshsock2' [GetDP 2.11.0, 1 node]
+Info    : getDP - Started (Wed Mar  1 21:01:45 2017, Wall = 0.00145292s, CPU = 0.033333s, Mem = 120.227Mb, Recv/Send = 6.67572e-05/0.000530243Mb)
+Info    : getDP - Got mesh name from Onelab: '/home/ramiro/Projects/thermoFEM/cad/testpot.msh'
+Info    : getDP - Initializing Gmsh
+Info    : getDP - Loading problem definition '/home/ramiro/Projects/thermoFEM/cad/testpot.pro'
+Info    : getDP - Available Resolutions
+Info    : getDP - (1) Resolution1
+Info    : getDP - Available PostOperations
+Info    : getDP - (1) Map_u
+Info    : getDP - Stopped (Wed Mar  1 21:01:45 2017, Wall = 0.00367093s, CPU = 0.036666s, Mem = 120.227Mb, Recv/Send = 0.000869751/0.00166512Mb)
+Info    : Done running 'getDP'
+Info    : Done
+Info    : Refining mesh...
+Info    : Meshing order 2 (curvilinear on)...
+Info    : Meshing surface 1 order 2
+Info    : Meshing volume 3 order 2
+Info    : Finalized high order topology of periodic connections
+Info    : Surface mesh: worst distortion = 1 (0 elements in ]0, 0.2]); worst gamma = 5.2289e-05
+Info    : Done meshing order 2 (0.146666 s)
+Info    : Done refining mesh (0.316666 s)
+Info    : Finalized high order topology of periodic connections
+Info    : Meshing 1D...
+Info    : Done meshing 1D (0 s)
+Info    : Meshing 2D...
+Info    : Done meshing 2D (6.60419e-05 s)
+Info    : Meshing 3D...
+Info    : Delaunay Meshing 1 volumes with 1 connected components
+Info    : Meshing volume 3 (Delaunay)
+Info    : I'm busy! Ask me that later...
+Info    : 121886 points 610341 edges and 243768 faces in the initial mesh
+Info    : Found region 3
+Info    : 0 points created - Worst tet radius is 1457.46 (PTS removed 0 0)
+Info    : 3743 points created - Worst tet radius is 1.37854 (PTS removed 0 1257)
+Info    : 8675 points created - Worst tet radius is 1.35785 (PTS removed 0 1325)
+Info    : 13607 points created - Worst tet radius is 1.34422 (PTS removed 0 1393)
+Info    : 18422 points created - Worst tet radius is 1.28999 (PTS removed 0 1578)
+Info    : 23104 points created - Worst tet radius is 1.17289 (PTS removed 1 1895)
+Info    : 28025 points created - Worst tet radius is 1.15493 (PTS removed 1 1974)
+Info    : 32784 points created - Worst tet radius is 1.08572 (PTS removed 1 2215)
+Info    : 37601 points created - Worst tet radius is 1.02072 (PTS removed 1 2398)
+Info    : 3D point insertion terminated (160867 points created):
+Info    :  - 878 Delaunay cavities modified for star shapeness
+Info    :  - 2453 points could not be inserted
+Info    :  - 627581 tetrahedra created in 4.13667 sec. (151711 tets/sec.)
+Info    : Done meshing 3D (15.19 s)
+Info    : 160866 vertices 871349 elements
+Info    : Writing '/home/ramiro/Projects/thermoFEM/cad/testpot.msh'...
+Info    : Done writing '/home/ramiro/Projects/thermoFEM/cad/testpot.msh'
+Info    : Finalized high order topology of periodic connections
+Info    : Meshing 1D...
+Info    : Done meshing 1D (0 s)
+Info    : Meshing 2D...
+Info    : Done meshing 2D (0.000134945 s)
+Info    : Meshing 3D...
+Info    : Delaunay Meshing 1 volumes with 1 connected components
+Info    : Meshing volume 3 (Delaunay)
+Error   : Self intersecting surface mesh, computing intersections (this could take a while)
+Error   : Surface mesh is wrong, cannot do the 3D mesh
+Info    : Done meshing 3D (0.003333 s)
+Info    : 0 vertices 0 elements
+Error   : ------------------------------
+Error   : Mesh generation error summary
+Error   :     0 warnings
+Error   :     2 errors
+Error   : Check the full log for details
+Error   : ------------------------------
+Info    : Writing '/home/ramiro/Projects/thermoFEM/cad/testpot.msh'...
+Info    : Done writing '/home/ramiro/Projects/thermoFEM/cad/testpot.msh'
+Info    : Saving database '/home/ramiro/Projects/thermoFEM/cad/testpot.db'...
+Info    : Done saving database '/home/ramiro/Projects/thermoFEM/cad/testpot.db'
+Info    : Done
+Info    : Calling '"/home/ramiro/Downloads/getdp-2.11.0-Linux/bin/getdp"   "/home/ramiro/Projects/thermoFEM/cad/testpot.pro"    -onelab "getDP" /home/ramiro/.gmshsock2 &'
+Info    : Running 'getDP'...
+Info    : getDP - Performing ONELAB 'check'
+Info    : getDP - Running '/home/ramiro/Downloads/getdp-2.11.0-Linux/bin/getdp /home/ramiro/Projects/thermoFEM/cad/testpot.pro -onelab getDP /home/ramiro/.gmshsock2' [GetDP 2.11.0, 1 node]
+Info    : getDP - Started (Wed Mar  1 21:02:48 2017, Wall = 0.00132895s, CPU = 0.033333s, Mem = 127.73Mb, Recv/Send = 6.67572e-05/0.000530243Mb)
+Info    : getDP - Got mesh name from Onelab: '/home/ramiro/Projects/thermoFEM/cad/testpot.msh'
+Info    : getDP - Initializing Gmsh
+Info    : getDP - Loading problem definition '/home/ramiro/Projects/thermoFEM/cad/testpot.pro'
+Info    : getDP - Available Resolutions
+Info    : getDP - (1) Resolution1
+Info    : getDP - Available PostOperations
+Info    : getDP - (1) Map_u
+Info    : getDP - Stopped (Wed Mar  1 21:02:48 2017, Wall = 0.00691009s, CPU = 0.039999s, Mem = 127.73Mb, Recv/Send = 0.000869751/0.00166416Mb)
+Info    : Done running 'getDP'
+Info    : Done
+Info    : Calling '"/home/ramiro/Downloads/getdp-2.11.0-Linux/bin/getdp"   "/home/ramiro/Projects/thermoFEM/cad/testpot.pro"    -onelab "getDP" /home/ramiro/.gmshsock2 &'
+Info    : Running 'getDP'...
+Info    : getDP - Performing ONELAB 'check'
+Info    : getDP - Running '/home/ramiro/Downloads/getdp-2.11.0-Linux/bin/getdp /home/ramiro/Projects/thermoFEM/cad/testpot.pro -onelab getDP /home/ramiro/.gmshsock2' [GetDP 2.11.0, 1 node]
+Info    : getDP - Started (Wed Mar  1 21:02:51 2017, Wall = 0.00035882s, CPU = 0.026666s, Mem = 128.457Mb, Recv/Send = 6.67572e-05/0.000530243Mb)
+Info    : getDP - Got mesh name from Onelab: '/home/ramiro/Projects/thermoFEM/cad/testpot.msh'
+Info    : getDP - Initializing Gmsh
+Info    : getDP - Loading problem definition '/home/ramiro/Projects/thermoFEM/cad/testpot.pro'
+Info    : getDP - Available Resolutions
+Info    : getDP - (1) Resolution1
+Info    : getDP - Available PostOperations
+Info    : getDP - (1) Map_u
+Info    : getDP - Stopped (Wed Mar  1 21:02:51 2017, Wall = 0.00596881s, CPU = 0.029999s, Mem = 128.457Mb, Recv/Send = 0.000869751/0.00166512Mb)
+Info    : Done running 'getDP'
+Info    : Done
+Info    : Calling '"/home/ramiro/Downloads/getdp-2.11.0-Linux/bin/getdp"   "/home/ramiro/Projects/thermoFEM/cad/testpot.pro"    -onelab "getDP" /home/ramiro/.gmshsock2 &'
+Info    : Running 'getDP'...
+Info    : getDP - Performing ONELAB 'check'
+Info    : getDP - Running '/home/ramiro/Downloads/getdp-2.11.0-Linux/bin/getdp /home/ramiro/Projects/thermoFEM/cad/testpot.pro -onelab getDP /home/ramiro/.gmshsock2' [GetDP 2.11.0, 1 node]
+Info    : getDP - Started (Wed Mar  1 21:02:57 2017, Wall = 0.000333071s, CPU = 0.023333s, Mem = 102.16Mb, Recv/Send = 6.67572e-05/0.000530243Mb)
+Info    : getDP - Got mesh name from Onelab: '/home/ramiro/Projects/thermoFEM/cad/testpot.msh'
+Info    : getDP - Initializing Gmsh
+Info    : getDP - Loading problem definition '/home/ramiro/Projects/thermoFEM/cad/testpot.pro'
+Info    : getDP - Available Resolutions
+Info    : getDP - (1) Resolution1
+Info    : getDP - Available PostOperations
+Info    : getDP - (1) Map_u
+Info    : getDP - Stopped (Wed Mar  1 21:02:57 2017, Wall = 0.00262618s, CPU = 0.023333s, Mem = 102.16Mb, Recv/Send = 0.000869751/0.00166512Mb)
+Info    : Done running 'getDP'
+Info    : Done
+Info    : Calling 'terminator -e 'vim /home/ramiro/Projects/thermoFEM/cad/testpot.geo' &'
+Info    : Calling '"/home/ramiro/Downloads/getdp-2.11.0-Linux/bin/getdp"   "/home/ramiro/Projects/thermoFEM/cad/testpot.pro"  -solve -pos  -onelab "getDP" /home/ramiro/.gmshsock2 &'
+Info    : Running 'getDP'...
+Info    : getDP - Performing ONELAB 'compute'
+Info    : getDP - Running '/home/ramiro/Downloads/getdp-2.11.0-Linux/bin/getdp /home/ramiro/Projects/thermoFEM/cad/testpot.pro -solve -pos -onelab getDP /home/ramiro/.gmshsock2' [GetDP 2.11.0, 1 node]
+Info    : getDP - Started (Wed Mar  1 21:03:05 2017, Wall = 0.00226402s, CPU = 0.033333s, Mem = 133.5Mb, Recv/Send = 6.86646e-05/0.000543594Mb)
+Info    : getDP - Got mesh name from Onelab: '/home/ramiro/Projects/thermoFEM/cad/testpot.msh'
+Info    : getDP - Initializing Gmsh
+Info    : getDP - Loading problem definition '/home/ramiro/Projects/thermoFEM/cad/testpot.pro'
+Info    : getDP - Selected Resolution 'Resolution1'
+Info    : getDP - Loading Geometric data '/home/ramiro/Projects/thermoFEM/cad/testpot.msh'
+Info    : getDP - System 'Syst' : Real
+Info    : getDP - P r e - P r o c e s s i n g . . .
+Info    : getDP - Treatment Formulation 'Formulation1'
+Info    : getDP - System 1/1: 0 Dofs
+Info    : getDP - (Wall = 0.00767088s, CPU = 0.033333s, Mem = 133.5Mb, Recv/Send = 0.000940323/0.00196362Mb)
+Info    : getDP - E n d   P r e - P r o c e s s i n g
+Info    : getDP - P r o c e s s i n g . . .
+Info    : getDP - Generate[Syst]
+Warning : getDP - Generated system is of dimension zero
+Info    : getDP - Solve[Syst]
+Warning : getDP - Zero-size system: skipping solve!
+Info    : getDP - SaveSolution[Syst]
+Info    : getDP - (Wall = 0.012913s, CPU = 0.033333s, Mem = 133.5Mb, Recv/Send = 0.00121498/0.00283432Mb)
+Info    : getDP - E n d   P r o c e s s i n g
+Info    : getDP - P o s t - P r o c e s s i n g . . .
+Info    : getDP - NameOfSystem not set in PostProcessing: selected 'Syst'
+Info    : getDP - Selected PostProcessing 'PostProc1'
+Info    : getDP - Selected Mesh '/home/ramiro/Projects/thermoFEM/cad/testpot.msh'
+Info    : getDP - PostOperation 1/1 
+Info    : getDP -           > '/home/ramiro/Projects/thermoFEM/cad/outfile.pos'
+Info    : Reading '/home/ramiro/Projects/thermoFEM/cad/outfile.pos'...
+Info    : Done reading '/home/ramiro/Projects/thermoFEM/cad/outfile.pos'
+Info    : getDP - (Wall = 0.0225s, CPU = 0.033333s, Mem = 133.5Mb, Recv/Send = 0.00145245/0.00367832Mb)
+Info    : getDP - E n d   P o s t - P r o c e s s i n g
+Info    : getDP - Stopped (Wed Mar  1 21:03:05 2017, Wall = 0.022541s, CPU = 0.033333s, Mem = 133.5Mb, Recv/Send = 0.00145245/0.00380993Mb)
+Info    : Done running 'getDP'
+Info    : Saving database '/home/ramiro/Projects/thermoFEM/cad/testpot.db'...
+Info    : Done saving database '/home/ramiro/Projects/thermoFEM/cad/testpot.db'
+Info    : Done
+Info    : Resetting database
+Info    : Reading '/home/ramiro/Projects/thermoFEM/cad/testpot.geo'...
+Info    : Reading '/home/ramiro/Projects/thermoFEM/cad/testpot.stl'...
+Info    : Mesh is in binary format
+Info    : 60942 facets in solid 0
+Info    : Done reading '/home/ramiro/Projects/thermoFEM/cad/testpot.stl'
+Info    : Done reading '/home/ramiro/Projects/thermoFEM/cad/testpot.geo'
+Info    : Calling '"/home/ramiro/Downloads/getdp-2.11.0-Linux/bin/getdp"   "/home/ramiro/Projects/thermoFEM/cad/testpot.pro"    -onelab "getDP" /home/ramiro/.gmshsock2 &'
+Info    : Running 'getDP'...
+Info    : getDP - Performing ONELAB 'check'
+Info    : getDP - Running '/home/ramiro/Downloads/getdp-2.11.0-Linux/bin/getdp /home/ramiro/Projects/thermoFEM/cad/testpot.pro -onelab getDP /home/ramiro/.gmshsock2' [GetDP 2.11.0, 1 node]
+Info    : getDP - Started (Wed Mar  1 21:03:13 2017, Wall = 0.000684023s, CPU = 0.029999s, Mem = 101.281Mb, Recv/Send = 6.67572e-05/0.000530243Mb)
+Info    : getDP - Got mesh name from Onelab: '/home/ramiro/Projects/thermoFEM/cad/testpot.msh'
+Info    : getDP - Initializing Gmsh
+Info    : getDP - Loading problem definition '/home/ramiro/Projects/thermoFEM/cad/testpot.pro'
+Info    : getDP - Available Resolutions
+Info    : getDP - (1) Resolution1
+Info    : getDP - Available PostOperations
+Info    : getDP - (1) Map_u
+Info    : getDP - Stopped (Wed Mar  1 21:03:13 2017, Wall = 0.00316882s, CPU = 0.033333s, Mem = 101.281Mb, Recv/Send = 0.000311852/0.00164318Mb)
+Info    : Done running 'getDP'
+Info    : Done
+Info    : Finalized high order topology of periodic connections
+Info    : Meshing 1D...
+Info    : Done meshing 1D (0 s)
+Info    : Meshing 2D...
+Info    : Done meshing 2D (0.000129938 s)
+Info    : 30473 vertices 60942 elements
+Info    : Finalized high order topology of periodic connections
+Info    : Meshing 1D...
+Info    : Done meshing 1D (0 s)
+Info    : Meshing 2D...
+Info    : Done meshing 2D (5.60284e-05 s)
+Info    : Meshing 3D...
+Info    : Delaunay Meshing 1 volumes with 1 connected components
+Info    : Meshing volume 3 (Delaunay)
+Info    : 30473 points 152472 edges and 60942 faces in the initial mesh
+Info    : Found region 3
+Info    : 0 points created - Worst tet radius is 63.779 (PTS removed 0 0)
+Info    : 3D point insertion terminated (30486 points created):
+Info    :  - 10 Delaunay cavities modified for star shapeness
+Info    :  - 405 points could not be inserted
+Info    :  - 91616 tetrahedra created in 0.06 sec. (1526933 tets/sec.)
+Info    : Done meshing 3D (2.36333 s)
+Info    : 30486 vertices 152558 elements
+Info    : Optimizing 3D mesh...
+Info    : Optimizing volume 3
+Info    : Opti : START with  1.02651E+06 QBAD  5.43684E-05 QAVG  6.61441E-01
+Info    : Opti : 0.00 < QUAL < 0.10 :       474 elements
+Info    : Opti : 0.10 < QUAL < 0.20 :       293 elements
+Info    : Opti : 0.20 < QUAL < 0.30 :       731 elements
+Info    : Opti : 0.30 < QUAL < 0.40 :      1078 elements
+Info    : Opti : 0.40 < QUAL < 0.50 :      1818 elements
+Info    : Opti : 0.50 < QUAL < 0.60 :     10275 elements
+Info    : Opti : 0.60 < QUAL < 0.70 :     47100 elements
+Info    : Opti : 0.70 < QUAL < 0.80 :     28029 elements
+Info    : Opti : 0.80 < QUAL < 0.90 :      1568 elements
+Info    : Opti : 0.90 < QUAL < 1.00 :       250 elements
+Info    : Opti : (1291,1,15) =  1.02651E+06 QBAD  5.43684E-05 QAVG  6.65893E-01 (   0.133 sec)
+Info    : Opti : (1482,1,17) =  1.02651E+06 QBAD  5.43684E-05 QAVG  6.66178E-01 (   0.227 sec)
+Info    : Opti : (1510,1,19) =  1.02651E+06 QBAD  5.43684E-05 QAVG  6.66207E-01 (   0.317 sec)
+Info    : Opti : (1519,1,22) =  1.02651E+06 QBAD  5.43684E-05 QAVG  6.66239E-01 (   0.410 sec)
+Info    : Opti : (1523,1,22) =  1.02651E+06 QBAD  5.43684E-05 QAVG  6.66245E-01 (   0.500 sec)
+Info    : Opti : (1524,1,23) =  1.02651E+06 QBAD  5.43684E-05 QAVG  6.66249E-01 (   0.593 sec)
+Info    : Opti : (1525,1,24) =  1.02651E+06 QBAD  5.43684E-05 QAVG  6.66249E-01 (   0.683 sec)
+Info    : Opti : 104 ill-shaped tets are still in the mesh
+Info    : Opti : 0.00 < QUAL < 0.10 :       104 elements
+Info    : Opti : 0.10 < QUAL < 0.20 :        82 elements
+Info    : Opti : 0.20 < QUAL < 0.30 :       470 elements
+Info    : Opti : 0.30 < QUAL < 0.40 :       914 elements
+Info    : Opti : 0.40 < QUAL < 0.50 :      1839 elements
+Info    : Opti : 0.50 < QUAL < 0.60 :     10666 elements
+Info    : Opti : 0.60 < QUAL < 0.70 :     46986 elements
+Info    : Opti : 0.70 < QUAL < 0.80 :     27886 elements
+Info    : Opti : 0.80 < QUAL < 0.90 :      1554 elements
+Info    : Opti : 0.90 < QUAL < 1.00 :       250 elements
+Info    : Done optimizing 3D mesh (1.05667 s)
+Info    : Finalized high order topology of periodic connections
+Info    : Meshing 1D...
+Info    : Done meshing 1D (0 s)
+Info    : Meshing 2D...
+Info    : Done meshing 2D (8.89301e-05 s)
+Info    : Meshing 3D...
+Info    : Delaunay Meshing 1 volumes with 1 connected components
+Info    : Meshing volume 3 (Delaunay)
+Error   : Self intersecting surface mesh, computing intersections (this could take a while)
+Error   : Surface mesh is wrong, cannot do the 3D mesh
+Info    : Done meshing 3D (0.003333 s)
+Info    : 0 vertices 0 elements
+Error   : ------------------------------
+Error   : Mesh generation error summary
+Error   :     0 warnings
+Error   :     2 errors
+Error   : Check the full log for details
+Error   : ------------------------------
+Info    : Writing '/home/ramiro/Projects/thermoFEM/cad/testpot.msh'...
+Info    : Done writing '/home/ramiro/Projects/thermoFEM/cad/testpot.msh'
+Info    : Saving database '/home/ramiro/Projects/thermoFEM/cad/testpot.db'...
+Info    : Done saving database '/home/ramiro/Projects/thermoFEM/cad/testpot.db'
+Info    : Done
+Info    : Calling '"/home/ramiro/Downloads/getdp-2.11.0-Linux/bin/getdp"   "/home/ramiro/Projects/thermoFEM/cad/testpot.pro"    -onelab "getDP" /home/ramiro/.gmshsock2 &'
+Info    : Running 'getDP'...
+Info    : getDP - Performing ONELAB 'check'
+Info    : getDP - Running '/home/ramiro/Downloads/getdp-2.11.0-Linux/bin/getdp /home/ramiro/Projects/thermoFEM/cad/testpot.pro -onelab getDP /home/ramiro/.gmshsock2' [GetDP 2.11.0, 1 node]
+Info    : getDP - Started (Wed Mar  1 21:03:44 2017, Wall = 0.00160384s, CPU = 0.026666s, Mem = 121.93Mb, Recv/Send = 6.67572e-05/0.000530243Mb)
+Info    : getDP - Got mesh name from Onelab: '/home/ramiro/Projects/thermoFEM/cad/testpot.msh'
+Info    : getDP - Initializing Gmsh
+Info    : getDP - Loading problem definition '/home/ramiro/Projects/thermoFEM/cad/testpot.pro'
+Info    : getDP - Available Resolutions
+Info    : getDP - (1) Resolution1
+Info    : getDP - Available PostOperations
+Info    : getDP - (1) Map_u
+Info    : getDP - Stopped (Wed Mar  1 21:03:44 2017, Wall = 0.00568604s, CPU = 0.029999s, Mem = 121.93Mb, Recv/Send = 0.000869751/0.00166416Mb)
+Info    : Done running 'getDP'
+Info    : Done
+Info    : Calling '"/home/ramiro/Downloads/getdp-2.11.0-Linux/bin/getdp"   "/home/ramiro/Projects/thermoFEM/cad/testpot.pro"    -onelab "getDP" /home/ramiro/.gmshsock2 &'
+Info    : Running 'getDP'...
+Info    : getDP - Performing ONELAB 'check'
+Info    : getDP - Running '/home/ramiro/Downloads/getdp-2.11.0-Linux/bin/getdp /home/ramiro/Projects/thermoFEM/cad/testpot.pro -onelab getDP /home/ramiro/.gmshsock2' [GetDP 2.11.0, 1 node]
+Info    : getDP - Started (Wed Mar  1 21:03:45 2017, Wall = 0.000423908s, CPU = 0.029999s, Mem = 129.918Mb, Recv/Send = 6.67572e-05/0.000530243Mb)
+Info    : getDP - Got mesh name from Onelab: '/home/ramiro/Projects/thermoFEM/cad/testpot.msh'
+Info    : getDP - Initializing Gmsh
+Info    : getDP - Loading problem definition '/home/ramiro/Projects/thermoFEM/cad/testpot.pro'
+Info    : getDP - Available Resolutions
+Info    : getDP - (1) Resolution1
+Info    : getDP - Available PostOperations
+Info    : getDP - (1) Map_u
+Info    : getDP - Stopped (Wed Mar  1 21:03:45 2017, Wall = 0.00667691s, CPU = 0.029999s, Mem = 129.918Mb, Recv/Send = 0.000869751/0.00166607Mb)
+Info    : Done running 'getDP'
+Info    : Done
+Info    : Finalized high order topology of periodic connections
+Info    : Meshing 1D...
+Info    : Done meshing 1D (0 s)
+Info    : Meshing 2D...
+Info    : Done meshing 2D (0.000283003 s)
+Info    : 0 vertices 0 elements
+Info    : Finalized high order topology of periodic connections
+Info    : Meshing 1D...
+Info    : Done meshing 1D (0 s)
+Info    : Meshing 2D...
+Info    : Done meshing 2D (0.000232935 s)
+Info    : Meshing 3D...
+Info    : Delaunay Meshing 1 volumes with 1 connected components
+Info    : Meshing volume 3 (Delaunay)
+Error   : Self intersecting surface mesh, computing intersections (this could take a while)
+Error   : Surface mesh is wrong, cannot do the 3D mesh
+Info    : Done meshing 3D (0 s)
+Info    : 0 vertices 0 elements
+Error   : ------------------------------
+Error   : Mesh generation error summary
+Error   :     0 warnings
+Error   :     2 errors
+Error   : Check the full log for details
+Error   : ------------------------------
+Info    : Finalized high order topology of periodic connections
+Info    : Meshing 1D...
+Info    : Done meshing 1D (0 s)
+Info    : Meshing 2D...
+Info    : Done meshing 2D (0.000227928 s)
+Info    : Meshing 3D...
+Info    : Delaunay Meshing 1 volumes with 1 connected components
+Info    : Meshing volume 3 (Delaunay)
+Error   : Self intersecting surface mesh, computing intersections (this could take a while)
+Error   : Surface mesh is wrong, cannot do the 3D mesh
+Info    : Done meshing 3D (0.003334 s)
+Info    : 0 vertices 0 elements
+Error   : ------------------------------
+Error   : Mesh generation error summary
+Error   :     0 warnings
+Error   :     2 errors
+Error   : Check the full log for details
+Error   : ------------------------------
+Info    : Finalized high order topology of periodic connections
+Info    : Meshing 1D...
+Info    : Done meshing 1D (0 s)
+Info    : Meshing 2D...
+Info    : Done meshing 2D (0.000231028 s)
+Info    : Meshing 3D...
+Info    : Delaunay Meshing 1 volumes with 1 connected components
+Info    : Meshing volume 3 (Delaunay)
+Error   : Self intersecting surface mesh, computing intersections (this could take a while)
+Error   : Surface mesh is wrong, cannot do the 3D mesh
+Info    : Done meshing 3D (0.003333 s)
+Info    : 0 vertices 0 elements
+Error   : ------------------------------
+Error   : Mesh generation error summary
+Error   :     0 warnings
+Error   :     2 errors
+Error   : Check the full log for details
+Error   : ------------------------------
+Info    : Finalized high order topology of periodic connections
+Info    : Meshing 1D...
+Info    : Done meshing 1D (0 s)
+Info    : Meshing 2D...
+Info    : Done meshing 2D (0.000228167 s)
+Info    : Meshing 3D...
+Info    : Delaunay Meshing 1 volumes with 1 connected components
+Info    : Meshing volume 3 (Delaunay)
+Error   : Self intersecting surface mesh, computing intersections (this could take a while)
+Error   : Surface mesh is wrong, cannot do the 3D mesh
+Info    : Done meshing 3D (0 s)
+Info    : 0 vertices 0 elements
+Error   : ------------------------------
+Error   : Mesh generation error summary
+Error   :     0 warnings
+Error   :     2 errors
+Error   : Check the full log for details
+Error   : ------------------------------
+Info    : Finalized high order topology of periodic connections
+Info    : Meshing 1D...
+Info    : Done meshing 1D (0 s)
+Info    : Meshing 2D...
+Info    : Done meshing 2D (0.000226974 s)
+Info    : Meshing 3D...
+Info    : Delaunay Meshing 1 volumes with 1 connected components
+Info    : Meshing volume 3 (Delaunay)
+Error   : Self intersecting surface mesh, computing intersections (this could take a while)
+Error   : Surface mesh is wrong, cannot do the 3D mesh
+Info    : Done meshing 3D (0.003333 s)
+Info    : 0 vertices 0 elements
+Error   : ------------------------------
+Error   : Mesh generation error summary
+Error   :     0 warnings
+Error   :     2 errors
+Error   : Check the full log for details
+Error   : ------------------------------
+Info    : Finalized high order topology of periodic connections
+Info    : Meshing 1D...
+Info    : Done meshing 1D (0 s)
+Info    : Meshing 2D...
+Info    : Done meshing 2D (0.000227928 s)
+Info    : Meshing 3D...
+Info    : Delaunay Meshing 1 volumes with 1 connected components
+Info    : Meshing volume 3 (Delaunay)
+Error   : Self intersecting surface mesh, computing intersections (this could take a while)
+Error   : Surface mesh is wrong, cannot do the 3D mesh
+Info    : Done meshing 3D (0 s)
+Info    : 0 vertices 0 elements
+Error   : ------------------------------
+Error   : Mesh generation error summary
+Error   :     0 warnings
+Error   :     2 errors
+Error   : Check the full log for details
+Error   : ------------------------------
+Info    : Finalized high order topology of periodic connections
+Info    : Meshing 1D...
+Info    : Done meshing 1D (0 s)
+Info    : Meshing 2D...
+Info    : Done meshing 2D (0.000226021 s)
+Info    : Meshing 3D...
+Info    : Delaunay Meshing 1 volumes with 1 connected components
+Info    : Meshing volume 3 (Delaunay)
+Error   : Self intersecting surface mesh, computing intersections (this could take a while)
+Error   : Surface mesh is wrong, cannot do the 3D mesh
+Info    : Done meshing 3D (0 s)
+Info    : 0 vertices 0 elements
+Error   : ------------------------------
+Error   : Mesh generation error summary
+Error   :     0 warnings
+Error   :     2 errors
+Error   : Check the full log for details
+Error   : ------------------------------
+Info    : Finalized high order topology of periodic connections
+Info    : Meshing 1D...
+Info    : Done meshing 1D (0 s)
+Info    : Meshing 2D...
+Info    : Done meshing 2D (0.000223875 s)
+Info    : 0 vertices 0 elements
+Info    : Finalized high order topology of periodic connections
+Info    : Meshing 1D...
+Info    : Done meshing 1D (0 s)
+Info    : 0 vertices 0 elements
+Info    : Calling '"/home/ramiro/Downloads/getdp-2.11.0-Linux/bin/getdp"   "/home/ramiro/Projects/thermoFEM/cad/testpot.pro"    -onelab "getDP" /home/ramiro/.gmshsock2 &'
+Info    : Running 'getDP'...
+Info    : getDP - Performing ONELAB 'check'
+Info    : getDP - Running '/home/ramiro/Downloads/getdp-2.11.0-Linux/bin/getdp /home/ramiro/Projects/thermoFEM/cad/testpot.pro -onelab getDP /home/ramiro/.gmshsock2' [GetDP 2.11.0, 1 node]
+Info    : getDP - Started (Wed Mar  1 21:03:53 2017, Wall = 0.000363111s, CPU = 0.023333s, Mem = 120.094Mb, Recv/Send = 6.67572e-05/0.000530243Mb)
+Info    : getDP - Got mesh name from Onelab: '/home/ramiro/Projects/thermoFEM/cad/testpot.msh'
+Info    : getDP - Initializing Gmsh
+Info    : getDP - Loading problem definition '/home/ramiro/Projects/thermoFEM/cad/testpot.pro'
+Info    : getDP - Available Resolutions
+Info    : getDP - (1) Resolution1
+Info    : getDP - Available PostOperations
+Info    : getDP - (1) Map_u
+Info    : getDP - Stopped (Wed Mar  1 21:03:53 2017, Wall = 0.00620008s, CPU = 0.026666s, Mem = 120.094Mb, Recv/Send = 0.000869751/0.00166607Mb)
+Info    : Done running 'getDP'
+Info    : Done
+Info    : Calling '"/home/ramiro/Downloads/getdp-2.11.0-Linux/bin/getdp"   "/home/ramiro/Projects/thermoFEM/cad/testpot.pro"    -onelab "getDP" /home/ramiro/.gmshsock2 &'
+Info    : Running 'getDP'...
+Info    : getDP - Performing ONELAB 'check'
+Info    : getDP - Running '/home/ramiro/Downloads/getdp-2.11.0-Linux/bin/getdp /home/ramiro/Projects/thermoFEM/cad/testpot.pro -onelab getDP /home/ramiro/.gmshsock2' [GetDP 2.11.0, 1 node]
+Info    : getDP - Started (Wed Mar  1 21:03:54 2017, Wall = 0.00136805s, CPU = 0.029999s, Mem = 130.953Mb, Recv/Send = 6.67572e-05/0.000530243Mb)
+Info    : getDP - Got mesh name from Onelab: '/home/ramiro/Projects/thermoFEM/cad/testpot.msh'
+Info    : getDP - Initializing Gmsh
+Info    : getDP - Loading problem definition '/home/ramiro/Projects/thermoFEM/cad/testpot.pro'
+Info    : getDP - Available Resolutions
+Info    : getDP - (1) Resolution1
+Info    : getDP - Available PostOperations
+Info    : getDP - (1) Map_u
+Info    : getDP - Stopped (Wed Mar  1 21:03:54 2017, Wall = 0.00372005s, CPU = 0.033333s, Mem = 130.953Mb, Recv/Send = 0.000869751/0.00166512Mb)
+Info    : Done running 'getDP'
+Info    : Done
+Info    : Calling '"/home/ramiro/Downloads/getdp-2.11.0-Linux/bin/getdp"   "/home/ramiro/Projects/thermoFEM/cad/testpot.pro"    -onelab "getDP" /home/ramiro/.gmshsock2 &'
+Info    : Running 'getDP'...
+Info    : getDP - Performing ONELAB 'check'
+Info    : getDP - Running '/home/ramiro/Downloads/getdp-2.11.0-Linux/bin/getdp /home/ramiro/Projects/thermoFEM/cad/testpot.pro -onelab getDP /home/ramiro/.gmshsock2' [GetDP 2.11.0, 1 node]
+Info    : getDP - Started (Wed Mar  1 21:05:24 2017, Wall = 0.000761032s, CPU = 0.019999s, Mem = 116.031Mb, Recv/Send = 6.67572e-05/0.000530243Mb)
+Info    : getDP - Got mesh name from Onelab: '/home/ramiro/Projects/thermoFEM/cad/testpot.msh'
+Info    : getDP - Initializing Gmsh
+Info    : getDP - Loading problem definition '/home/ramiro/Projects/thermoFEM/cad/testpot.pro'
+Info    : getDP - Available Resolutions
+Info    : getDP - (1) Resolution1
+Info    : getDP - Available PostOperations
+Info    : getDP - (1) Map_u
+Info    : getDP - Stopped (Wed Mar  1 21:05:24 2017, Wall = 0.00700998s, CPU = 0.023333s, Mem = 116.031Mb, Recv/Send = 0.000869751/0.00166607Mb)
+Info    : Done running 'getDP'
+Info    : Done
+Info    : Reading '/home/ramiro/Projects/thermoFEM/cad/testpot.geo'...
+Info    : Reading '/home/ramiro/Projects/thermoFEM/cad/testpot.stl'...
+Info    : Mesh is in binary format
+Info    : 616 facets in solid 0
+Info    : Done reading '/home/ramiro/Projects/thermoFEM/cad/testpot.stl'
+Info    : Done reading '/home/ramiro/Projects/thermoFEM/cad/testpot.geo'
+Info    : Calling '"/home/ramiro/Downloads/getdp-2.11.0-Linux/bin/getdp"   "/home/ramiro/Projects/thermoFEM/cad/testpot.pro"    -onelab "getDP" /home/ramiro/.gmshsock2 &'
+Info    : Running 'getDP'...
+Info    : getDP - Performing ONELAB 'check'
+Info    : getDP - Running '/home/ramiro/Downloads/getdp-2.11.0-Linux/bin/getdp /home/ramiro/Projects/thermoFEM/cad/testpot.pro -onelab getDP /home/ramiro/.gmshsock2' [GetDP 2.11.0, 1 node]
+Info    : getDP - Started (Wed Mar  1 21:05:39 2017, Wall = 0.000731945s, CPU = 0.023333s, Mem = 95.0938Mb, Recv/Send = 6.67572e-05/0.000530243Mb)
+Info    : getDP - Got mesh name from Onelab: '/home/ramiro/Projects/thermoFEM/cad/testpot.msh'
+Info    : getDP - Initializing Gmsh
+Info    : getDP - Loading problem definition '/home/ramiro/Projects/thermoFEM/cad/testpot.pro'
+Info    : getDP - Available Resolutions
+Info    : getDP - (1) Resolution1
+Info    : getDP - Available PostOperations
+Info    : getDP - (1) Map_u
+Info    : getDP - Stopped (Wed Mar  1 21:05:39 2017, Wall = 0.00603795s, CPU = 0.029999s, Mem = 95.0938Mb, Recv/Send = 0.000869751/0.00166607Mb)
+Info    : Done running 'getDP'
+Info    : Done
+Info    : Calling 'terminator -e 'vim /home/ramiro/Projects/thermoFEM/cad/testpot.geo' &'
+Info    : Calling '"/home/ramiro/Downloads/getdp-2.11.0-Linux/bin/getdp"   "/home/ramiro/Projects/thermoFEM/cad/testpot.pro"    -onelab "getDP" /home/ramiro/.gmshsock2 &'
+Info    : Running 'getDP'...
+Info    : getDP - Performing ONELAB 'check'
+Info    : getDP - Running '/home/ramiro/Downloads/getdp-2.11.0-Linux/bin/getdp /home/ramiro/Projects/thermoFEM/cad/testpot.pro -onelab getDP /home/ramiro/.gmshsock2' [GetDP 2.11.0, 1 node]
+Info    : getDP - Started (Wed Mar  1 21:06:02 2017, Wall = 0.000832081s, CPU = 0.026666s, Mem = 128.402Mb, Recv/Send = 6.67572e-05/0.000530243Mb)
+Info    : getDP - Got mesh name from Onelab: '/home/ramiro/Projects/thermoFEM/cad/testpot.msh'
+Info    : getDP - Initializing Gmsh
+Info    : getDP - Loading problem definition '/home/ramiro/Projects/thermoFEM/cad/testpot.pro'
+Info    : getDP - Available Resolutions
+Info    : getDP - (1) Resolution1
+Info    : getDP - Available PostOperations
+Info    : getDP - (1) Map_u
+Info    : getDP - Stopped (Wed Mar  1 21:06:02 2017, Wall = 0.00725198s, CPU = 0.026666s, Mem = 128.402Mb, Recv/Send = 0.000869751/0.00166607Mb)
+Info    : Done running 'getDP'
+Info    : Done
+Info    : Calling '"/home/ramiro/Downloads/getdp-2.11.0-Linux/bin/getdp"   "/home/ramiro/Projects/thermoFEM/cad/testpot.pro"    -onelab "getDP" /home/ramiro/.gmshsock2 &'
+Info    : Running 'getDP'...
+Info    : getDP - Performing ONELAB 'check'
+Info    : getDP - Running '/home/ramiro/Downloads/getdp-2.11.0-Linux/bin/getdp /home/ramiro/Projects/thermoFEM/cad/testpot.pro -onelab getDP /home/ramiro/.gmshsock2' [GetDP 2.11.0, 1 node]
+Info    : getDP - Started (Wed Mar  1 21:06:07 2017, Wall = 0.00193906s, CPU = 0.026666s, Mem = 86.9297Mb, Recv/Send = 6.67572e-05/0.000530243Mb)
+Info    : getDP - Got mesh name from Onelab: '/home/ramiro/Projects/thermoFEM/cad/testpot.msh'
+Info    : getDP - Initializing Gmsh
+Info    : getDP - Loading problem definition '/home/ramiro/Projects/thermoFEM/cad/testpot.pro'
+Info    : getDP - Available Resolutions
+Info    : getDP - (1) Resolution1
+Info    : getDP - Available PostOperations
+Info    : getDP - (1) Map_u
+Info    : getDP - Stopped (Wed Mar  1 21:06:07 2017, Wall = 0.00380111s, CPU = 0.026666s, Mem = 86.9297Mb, Recv/Send = 0.000869751/0.00166512Mb)
+Info    : Done running 'getDP'
+Info    : Done
+Info    : Calling '"/home/ramiro/Downloads/getdp-2.11.0-Linux/bin/getdp"   "/home/ramiro/Projects/thermoFEM/cad/testpot.pro"    -onelab "getDP" /home/ramiro/.gmshsock2 &'
+Info    : Running 'getDP'...
+Info    : getDP - Performing ONELAB 'check'
+Info    : getDP - Running '/home/ramiro/Downloads/getdp-2.11.0-Linux/bin/getdp /home/ramiro/Projects/thermoFEM/cad/testpot.pro -onelab getDP /home/ramiro/.gmshsock2' [GetDP 2.11.0, 1 node]
+Info    : getDP - Started (Wed Mar  1 21:06:08 2017, Wall = 0.00078392s, CPU = 0.063333s, Mem = 122.473Mb, Recv/Send = 6.67572e-05/0.000530243Mb)
+Info    : getDP - Got mesh name from Onelab: '/home/ramiro/Projects/thermoFEM/cad/testpot.msh'
+Info    : getDP - Initializing Gmsh
+Info    : getDP - Loading problem definition '/home/ramiro/Projects/thermoFEM/cad/testpot.pro'
+Info    : getDP - Available Resolutions
+Info    : getDP - (1) Resolution1
+Info    : getDP - Available PostOperations
+Info    : getDP - (1) Map_u
+Info    : getDP - Stopped (Wed Mar  1 21:06:08 2017, Wall = 0.010308s, CPU = 0.066666s, Mem = 122.473Mb, Recv/Send = 0.000869751/0.00166512Mb)
+Info    : Done running 'getDP'
+Info    : Done
+Info    : Calling 'terminator -e 'vim /home/ramiro/Projects/thermoFEM/cad/testpot.geo' &'
+Info    : Reading '/home/ramiro/Projects/thermoFEM/cad/testpot.geo'...
+Info    : Reading '/home/ramiro/Projects/thermoFEM/cad/testpot.stl'...
+Info    : Mesh is in binary format
+Info    : 616 facets in solid 0
+Info    : Done reading '/home/ramiro/Projects/thermoFEM/cad/testpot.stl'
+Info    : Done reading '/home/ramiro/Projects/thermoFEM/cad/testpot.geo'
+Info    : Reading '/home/ramiro/Projects/thermoFEM/cad/testpot.geo'...
+Info    : Reading '/home/ramiro/Projects/thermoFEM/cad/testpot.stl'...
+Info    : Mesh is in binary format
+Info    : 616 facets in solid 0
+Info    : Done reading '/home/ramiro/Projects/thermoFEM/cad/testpot.stl'
+Info    : Done reading '/home/ramiro/Projects/thermoFEM/cad/testpot.geo'
+Warning : Could not find last command in script `/home/ramiro/Projects/thermoFEM/cad/testpot.geo'
+Warning : Could not find last command in script `/home/ramiro/Projects/thermoFEM/cad/testpot.geo'
+Warning : Could not find last command in script `/home/ramiro/Projects/thermoFEM/cad/testpot.geo'
+Info    : Calling 'terminator -e 'vim /home/ramiro/Projects/thermoFEM/cad/testpot.geo' &'
+Info    : Reading '/home/ramiro/Projects/thermoFEM/cad/testpot.geo'...
+Info    : Reading '/home/ramiro/Projects/thermoFEM/cad/testpot.stl'...
+Info    : Mesh is in binary format
+Info    : 616 facets in solid 0
+Info    : Done reading '/home/ramiro/Projects/thermoFEM/cad/testpot.stl'
+Info    : Done reading '/home/ramiro/Projects/thermoFEM/cad/testpot.geo'
+Info    : Finalized high order topology of periodic connections
+Info    : Meshing 1D...
+Info    : Done meshing 1D (0 s)
+Info    : Meshing 2D...
+Info    : Done meshing 2D (0.00179505 s)
+Info    : Meshing 3D...
+Info    : Delaunay Meshing 1 volumes with 1 connected components
+Info    : Meshing volume 3 (Delaunay)
+Error   : Self intersecting surface mesh, computing intersections (this could take a while)
+Error   : Surface mesh is wrong, cannot do the 3D mesh
+Info    : Done meshing 3D (0 s)
+Info    : 0 vertices 0 elements
+Error   : ------------------------------
+Error   : Mesh generation error summary
+Error   :     0 warnings
+Error   :     2 errors
+Error   : Check the full log for details
+Error   : ------------------------------
+Info    : Writing '/home/ramiro/Projects/thermoFEM/cad/testpot.msh'...
+Info    : Done writing '/home/ramiro/Projects/thermoFEM/cad/testpot.msh'
+Info    : Saving database '/home/ramiro/Projects/thermoFEM/cad/testpot.db'...
+Info    : Done saving database '/home/ramiro/Projects/thermoFEM/cad/testpot.db'
+Info    : Done
+Info    : Calling '"/home/ramiro/Downloads/getdp-2.11.0-Linux/bin/getdp"   "/home/ramiro/Projects/thermoFEM/cad/testpot.pro"    -onelab "getDP" /home/ramiro/.gmshsock2 &'
+Info    : Running 'getDP'...
+Info    : getDP - Performing ONELAB 'check'
+Info    : getDP - Running '/home/ramiro/Downloads/getdp-2.11.0-Linux/bin/getdp /home/ramiro/Projects/thermoFEM/cad/testpot.pro -onelab getDP /home/ramiro/.gmshsock2' [GetDP 2.11.0, 1 node]
+Info    : getDP - Started (Wed Mar  1 21:10:25 2017, Wall = 0.000921965s, CPU = 0.023333s, Mem = 110.336Mb, Recv/Send = 6.67572e-05/0.000530243Mb)
+Info    : getDP - Got mesh name from Onelab: '/home/ramiro/Projects/thermoFEM/cad/testpot.msh'
+Info    : getDP - Initializing Gmsh
+Info    : getDP - Loading problem definition '/home/ramiro/Projects/thermoFEM/cad/testpot.pro'
+Info    : getDP - Available Resolutions
+Info    : getDP - (1) Resolution1
+Info    : getDP - Available PostOperations
+Info    : getDP - (1) Map_u
+Info    : getDP - Stopped (Wed Mar  1 21:10:25 2017, Wall = 0.00724101s, CPU = 0.023333s, Mem = 110.336Mb, Recv/Send = 0.000869751/0.00166607Mb)
+Info    : Done running 'getDP'
+Info    : Done
+Info    : Calling '"/home/ramiro/Downloads/getdp-2.11.0-Linux/bin/getdp"   "/home/ramiro/Projects/thermoFEM/cad/testpot.pro"    -onelab "getDP" /home/ramiro/.gmshsock2 &'
+Info    : Running 'getDP'...
+Info    : getDP - Performing ONELAB 'check'
+Info    : getDP - Running '/home/ramiro/Downloads/getdp-2.11.0-Linux/bin/getdp /home/ramiro/Projects/thermoFEM/cad/testpot.pro -onelab getDP /home/ramiro/.gmshsock2' [GetDP 2.11.0, 1 node]
+Info    : getDP - Started (Wed Mar  1 21:10:26 2017, Wall = 0.00131798s, CPU = 0.026666s, Mem = 94.9375Mb, Recv/Send = 6.67572e-05/0.000530243Mb)
+Info    : getDP - Got mesh name from Onelab: '/home/ramiro/Projects/thermoFEM/cad/testpot.msh'
+Info    : getDP - Initializing Gmsh
+Info    : getDP - Loading problem definition '/home/ramiro/Projects/thermoFEM/cad/testpot.pro'
+Info    : getDP - Available Resolutions
+Info    : getDP - (1) Resolution1
+Info    : getDP - Available PostOperations
+Info    : getDP - (1) Map_u
+Info    : getDP - Stopped (Wed Mar  1 21:10:26 2017, Wall = 0.00689197s, CPU = 0.029999s, Mem = 94.9375Mb, Recv/Send = 0.000869751/0.00166512Mb)
+Info    : Done running 'getDP'
+Info    : Done
+Info    : Calling '"/home/ramiro/Downloads/getdp-2.11.0-Linux/bin/getdp"   "/home/ramiro/Projects/thermoFEM/cad/testpot.pro"    -onelab "getDP" /home/ramiro/.gmshsock2 &'
+Info    : Running 'getDP'...
+Info    : getDP - Performing ONELAB 'check'
+Info    : getDP - Running '/home/ramiro/Downloads/getdp-2.11.0-Linux/bin/getdp /home/ramiro/Projects/thermoFEM/cad/testpot.pro -onelab getDP /home/ramiro/.gmshsock2' [GetDP 2.11.0, 1 node]
+Info    : getDP - Started (Wed Mar  1 21:10:26 2017, Wall = 0.000803947s, CPU = 0.026666s, Mem = 111.707Mb, Recv/Send = 6.67572e-05/0.000530243Mb)
+Info    : getDP - Got mesh name from Onelab: '/home/ramiro/Projects/thermoFEM/cad/testpot.msh'
+Info    : getDP - Initializing Gmsh
+Info    : getDP - Loading problem definition '/home/ramiro/Projects/thermoFEM/cad/testpot.pro'
+Info    : getDP - Available Resolutions
+Info    : getDP - (1) Resolution1
+Info    : getDP - Available PostOperations
+Info    : getDP - (1) Map_u
+Info    : getDP - Stopped (Wed Mar  1 21:10:26 2017, Wall = 0.00592399s, CPU = 0.033333s, Mem = 111.707Mb, Recv/Send = 0.000869751/0.00166607Mb)
+Info    : Done running 'getDP'
+Info    : Done
+Info    : Calling '"/home/ramiro/Downloads/getdp-2.11.0-Linux/bin/getdp"   "/home/ramiro/Projects/thermoFEM/cad/testpot.pro"    -onelab "getDP" /home/ramiro/.gmshsock2 &'
+Info    : Running 'getDP'...
+Info    : getDP - Performing ONELAB 'check'
+Info    : getDP - Running '/home/ramiro/Downloads/getdp-2.11.0-Linux/bin/getdp /home/ramiro/Projects/thermoFEM/cad/testpot.pro -onelab getDP /home/ramiro/.gmshsock2' [GetDP 2.11.0, 1 node]
+Info    : getDP - Started (Wed Mar  1 21:10:26 2017, Wall = 0.000952959s, CPU = 0.043333s, Mem = 136.508Mb, Recv/Send = 6.67572e-05/0.000530243Mb)
+Info    : getDP - Got mesh name from Onelab: '/home/ramiro/Projects/thermoFEM/cad/testpot.msh'
+Info    : getDP - Initializing Gmsh
+Info    : getDP - Loading problem definition '/home/ramiro/Projects/thermoFEM/cad/testpot.pro'
+Info    : getDP - Available Resolutions
+Info    : getDP - (1) Resolution1
+Info    : getDP - Available PostOperations
+Info    : getDP - (1) Map_u
+Info    : getDP - Stopped (Wed Mar  1 21:10:26 2017, Wall = 0.00348186s, CPU = 0.046666s, Mem = 136.508Mb, Recv/Send = 0.000869751/0.00166607Mb)
+Info    : Done running 'getDP'
+Info    : Done
+Info    : Calling '"/home/ramiro/Downloads/getdp-2.11.0-Linux/bin/getdp"   "/home/ramiro/Projects/thermoFEM/cad/testpot.pro"    -onelab "getDP" /home/ramiro/.gmshsock2 &'
+Info    : Running 'getDP'...
+Info    : getDP - Performing ONELAB 'check'
+Info    : getDP - Running '/home/ramiro/Downloads/getdp-2.11.0-Linux/bin/getdp /home/ramiro/Projects/thermoFEM/cad/testpot.pro -onelab getDP /home/ramiro/.gmshsock2' [GetDP 2.11.0, 1 node]
+Info    : getDP - Started (Wed Mar  1 21:10:26 2017, Wall = 0.00127912s, CPU = 0.039999s, Mem = 108.027Mb, Recv/Send = 6.67572e-05/0.000530243Mb)
+Info    : getDP - Got mesh name from Onelab: '/home/ramiro/Projects/thermoFEM/cad/testpot.msh'
+Info    : getDP - Initializing Gmsh
+Info    : getDP - Loading problem definition '/home/ramiro/Projects/thermoFEM/cad/testpot.pro'
+Info    : getDP - Available Resolutions
+Info    : getDP - (1) Resolution1
+Info    : getDP - Available PostOperations
+Info    : getDP - (1) Map_u
+Info    : getDP - Stopped (Wed Mar  1 21:10:26 2017, Wall = 0.0036459s, CPU = 0.043333s, Mem = 108.027Mb, Recv/Send = 0.000869751/0.00166512Mb)
+Info    : Done running 'getDP'
+Info    : Done
+Info    : Calling 'terminator -e 'vim /home/ramiro/Projects/thermoFEM/cad/testpot.geo' &'
+Info    : Reading '/home/ramiro/Projects/thermoFEM/cad/testpot.geo'...
+Info    : Reading '/home/ramiro/Projects/thermoFEM/cad/testpot.stl'...
+Info    : Mesh is in binary format
+Info    : 172 facets in solid 0
+Info    : Done reading '/home/ramiro/Projects/thermoFEM/cad/testpot.stl'
+Info    : Done reading '/home/ramiro/Projects/thermoFEM/cad/testpot.geo'
+Info    : Calling '"/home/ramiro/Downloads/getdp-2.11.0-Linux/bin/getdp"   "/home/ramiro/Projects/thermoFEM/cad/testpot.pro"    -onelab "getDP" /home/ramiro/.gmshsock2 &'
+Info    : Running 'getDP'...
+Info    : getDP - Performing ONELAB 'check'
+Info    : getDP - Running '/home/ramiro/Downloads/getdp-2.11.0-Linux/bin/getdp /home/ramiro/Projects/thermoFEM/cad/testpot.pro -onelab getDP /home/ramiro/.gmshsock2' [GetDP 2.11.0, 1 node]
+Info    : getDP - Started (Wed Mar  1 21:10:57 2017, Wall = 0.000634193s, CPU = 0.026666s, Mem = 112.703Mb, Recv/Send = 6.67572e-05/0.000530243Mb)
+Info    : getDP - Got mesh name from Onelab: '/home/ramiro/Projects/thermoFEM/cad/testpot.msh'
+Info    : getDP - Initializing Gmsh
+Info    : getDP - Loading problem definition '/home/ramiro/Projects/thermoFEM/cad/testpot.pro'
+Info    : getDP - Available Resolutions
+Info    : getDP - (1) Resolution1
+Info    : getDP - Available PostOperations
+Info    : getDP - (1) Map_u
+Info    : getDP - Stopped (Wed Mar  1 21:10:57 2017, Wall = 0.00683904s, CPU = 0.026666s, Mem = 112.703Mb, Recv/Send = 0.000869751/0.00166607Mb)
+Info    : Done running 'getDP'
+Info    : Done
+Info    : Finalized high order topology of periodic connections
+Info    : Meshing 1D...
+Info    : Done meshing 1D (0 s)
+Info    : Meshing 2D...
+Info    : Done meshing 2D (0.000295162 s)
+Info    : Meshing 3D...
+Info    : Delaunay Meshing 1 volumes with 1 connected components
+Info    : Meshing volume 3 (Delaunay)
+Info    : 88 points 299 edges and 172 faces in the initial mesh
+Info    : Found region 3
+Info    : 0 points created - Worst tet radius is 0.576726 (PTS removed 0 0)
+Info    : 3D point insertion terminated (88 points created):
+Info    :  - 0 Delaunay cavities modified for star shapeness
+Info    :  - 0 points could not be inserted
+Info    :  - 126 tetrahedra created in 0 sec. (-2147483648 tets/sec.)
+Info    : Done meshing 3D (0.006667 s)
+Info    : 88 vertices 298 elements
+Info    : Reading '/home/ramiro/Projects/thermoFEM/cad/testpot.geo'...
+Info    : Reading '/home/ramiro/Projects/thermoFEM/cad/testpot.stl'...
+Info    : Mesh is in binary format
+Info    : 172 facets in solid 0
+Info    : Done reading '/home/ramiro/Projects/thermoFEM/cad/testpot.stl'
+Info    : Done reading '/home/ramiro/Projects/thermoFEM/cad/testpot.geo'
+Info    : Finalized high order topology of periodic connections
+Info    : Meshing 1D...
+Info    : Done meshing 1D (0 s)
+Info    : Meshing 2D...
+Info    : Done meshing 2D (7.79629e-05 s)
+Info    : Meshing 3D...
+Info    : Delaunay Meshing 1 volumes with 1 connected components
+Info    : Meshing volume 3 (Delaunay)
+Error   : Self intersecting surface mesh, computing intersections (this could take a while)
+Error   : Surface mesh is wrong, cannot do the 3D mesh
+Info    : Done meshing 3D (0 s)
+Info    : 0 vertices 0 elements
+Error   : ------------------------------
+Error   : Mesh generation error summary
+Error   :     0 warnings
+Error   :     2 errors
+Error   : Check the full log for details
+Error   : ------------------------------
+Info    : Writing '/home/ramiro/Projects/thermoFEM/cad/testpot.msh'...
+Info    : Done writing '/home/ramiro/Projects/thermoFEM/cad/testpot.msh'
+Info    : Calling '"/home/ramiro/Downloads/getdp-2.11.0-Linux/bin/getdp"   "/home/ramiro/Projects/thermoFEM/cad/testpot.pro"  -solve -pos  -onelab "getDP" /home/ramiro/.gmshsock2 &'
+Info    : Running 'getDP'...
+Info    : getDP - Performing ONELAB 'compute'
+Info    : getDP - Running '/home/ramiro/Downloads/getdp-2.11.0-Linux/bin/getdp /home/ramiro/Projects/thermoFEM/cad/testpot.pro -solve -pos -onelab getDP /home/ramiro/.gmshsock2' [GetDP 2.11.0, 1 node]
+Info    : getDP - Started (Wed Mar  1 21:11:24 2017, Wall = 0.00204682s, CPU = 0.033333s, Mem = 108.309Mb, Recv/Send = 6.86646e-05/0.000543594Mb)
+Info    : getDP - Got mesh name from Onelab: '/home/ramiro/Projects/thermoFEM/cad/testpot.msh'
+Info    : getDP - Initializing Gmsh
+Info    : getDP - Loading problem definition '/home/ramiro/Projects/thermoFEM/cad/testpot.pro'
+Info    : getDP - Selected Resolution 'Resolution1'
+Info    : getDP - Loading Geometric data '/home/ramiro/Projects/thermoFEM/cad/testpot.msh'
+Info    : getDP - System 'Syst' : Real
+Info    : getDP - P r e - P r o c e s s i n g . . .
+Info    : getDP - Treatment Formulation 'Formulation1'
+Info    : getDP - System 1/1: 0 Dofs
+Info    : getDP - (Wall = 0.00495386s, CPU = 0.033333s, Mem = 108.309Mb, Recv/Send = 0.000940323/0.00196552Mb)
+Info    : getDP - E n d   P r e - P r o c e s s i n g
+Info    : getDP - P r o c e s s i n g . . .
+Info    : getDP - Generate[Syst]
+Warning : getDP - Generated system is of dimension zero
+Info    : getDP - Solve[Syst]
+Warning : getDP - Zero-size system: skipping solve!
+Info    : getDP - SaveSolution[Syst]
+Info    : getDP - (Wall = 0.00656986s, CPU = 0.036666s, Mem = 108.309Mb, Recv/Send = 0.00121498/0.00283813Mb)
+Info    : getDP - E n d   P r o c e s s i n g
+Info    : getDP - P o s t - P r o c e s s i n g . . .
+Info    : getDP - NameOfSystem not set in PostProcessing: selected 'Syst'
+Info    : getDP - Selected PostProcessing 'PostProc1'
+Info    : getDP - Selected Mesh '/home/ramiro/Projects/thermoFEM/cad/testpot.msh'
+Info    : getDP - PostOperation 1/1 
+Info    : getDP -           > '/home/ramiro/Projects/thermoFEM/cad/outfile.pos'
+Info    : Reading '/home/ramiro/Projects/thermoFEM/cad/outfile.pos'...
+Info    : Done reading '/home/ramiro/Projects/thermoFEM/cad/outfile.pos'
+Info    : getDP - (Wall = 0.016767s, CPU = 0.036666s, Mem = 108.309Mb, Recv/Send = 0.00130939/0.00367832Mb)
+Info    : getDP - E n d   P o s t - P r o c e s s i n g
+Info    : getDP - Stopped (Wed Mar  1 21:11:24 2017, Wall = 0.0168118s, CPU = 0.036666s, Mem = 108.309Mb, Recv/Send = 0.00130939/0.00381374Mb)
+Info    : Done running 'getDP'
+Info    : Saving database '/home/ramiro/Projects/thermoFEM/cad/testpot.db'...
+Info    : Done saving database '/home/ramiro/Projects/thermoFEM/cad/testpot.db'
+Info    : Done
+Info    : Finalized high order topology of periodic connections
+Info    : Meshing 1D...
+Info    : Done meshing 1D (0 s)
+Info    : Meshing 2D...
+Info    : Done meshing 2D (0.000290871 s)
+Info    : Meshing 3D...
+Info    : Delaunay Meshing 1 volumes with 1 connected components
+Info    : Meshing volume 3 (Delaunay)
+Error   : Self intersecting surface mesh, computing intersections (this could take a while)
+Error   : Surface mesh is wrong, cannot do the 3D mesh
+Info    : Done meshing 3D (0 s)
+Info    : 0 vertices 0 elements
+Error   : ------------------------------
+Error   : Mesh generation error summary
+Error   :     0 warnings
+Error   :     2 errors
+Error   : Check the full log for details
+Error   : ------------------------------
+Info    : Reading '/home/ramiro/Projects/thermoFEM/cad/testpot.geo'...
+Info    : Reading '/home/ramiro/Projects/thermoFEM/cad/testpot.stl'...
+Info    : Mesh is in binary format
+Info    : 172 facets in solid 0
+Info    : Done reading '/home/ramiro/Projects/thermoFEM/cad/testpot.stl'
+Info    : Done reading '/home/ramiro/Projects/thermoFEM/cad/testpot.geo'
+Info    : Calling '"/home/ramiro/Downloads/getdp-2.11.0-Linux/bin/getdp"   "/home/ramiro/Projects/thermoFEM/cad/testpot.pro"    -onelab "getDP" /home/ramiro/.gmshsock2 &'
+Info    : Running 'getDP'...
+Info    : getDP - Performing ONELAB 'check'
+Info    : getDP - Running '/home/ramiro/Downloads/getdp-2.11.0-Linux/bin/getdp /home/ramiro/Projects/thermoFEM/cad/testpot.pro -onelab getDP /home/ramiro/.gmshsock2' [GetDP 2.11.0, 1 node]
+Info    : getDP - Started (Wed Mar  1 21:11:32 2017, Wall = 0.00128913s, CPU = 0.019999s, Mem = 115.586Mb, Recv/Send = 6.67572e-05/0.000530243Mb)
+Info    : getDP - Got mesh name from Onelab: '/home/ramiro/Projects/thermoFEM/cad/testpot.msh'
+Info    : getDP - Initializing Gmsh
+Info    : getDP - Loading problem definition '/home/ramiro/Projects/thermoFEM/cad/testpot.pro'
+Info    : getDP - Available Resolutions
+Info    : getDP - (1) Resolution1
+Info    : getDP - Available PostOperations
+Info    : getDP - (1) Map_u
+Info    : getDP - Stopped (Wed Mar  1 21:11:32 2017, Wall = 0.00761414s, CPU = 0.019999s, Mem = 115.586Mb, Recv/Send = 0.000869751/0.00166512Mb)
+Info    : Done running 'getDP'
+Info    : Done
+Info    : Finalized high order topology of periodic connections
+Info    : Meshing 1D...
+Info    : Done meshing 1D (0 s)
+Info    : Meshing 2D...
+Info    : Done meshing 2D (0.000287056 s)
+Info    : Meshing 3D...
+Info    : Delaunay Meshing 1 volumes with 1 connected components
+Info    : Meshing volume 3 (Delaunay)
+Info    : 88 points 299 edges and 172 faces in the initial mesh
+Info    : Found region 3
+Info    : 0 points created - Worst tet radius is 0.576726 (PTS removed 0 0)
+Info    : 3D point insertion terminated (88 points created):
+Info    :  - 0 Delaunay cavities modified for star shapeness
+Info    :  - 0 points could not be inserted
+Info    :  - 126 tetrahedra created in 0 sec. (-2147483648 tets/sec.)
+Info    : Done meshing 3D (0.006667 s)
+Info    : 88 vertices 298 elements
+Info    : Writing '/home/ramiro/Projects/thermoFEM/cad/testpot.msh'...
+Info    : Done writing '/home/ramiro/Projects/thermoFEM/cad/testpot.msh'
+Info    : Finalized high order topology of periodic connections
+Info    : Meshing 1D...
+Info    : Done meshing 1D (0 s)
+Info    : Meshing 2D...
+Info    : Done meshing 2D (0.000272036 s)
+Info    : Meshing 3D...
+Info    : Delaunay Meshing 1 volumes with 1 connected components
+Info    : Meshing volume 3 (Delaunay)
+Error   : Self intersecting surface mesh, computing intersections (this could take a while)
+Error   : Surface mesh is wrong, cannot do the 3D mesh
+Info    : Done meshing 3D (0 s)
+Info    : 0 vertices 0 elements
+Error   : ------------------------------
+Error   : Mesh generation error summary
+Error   :     0 warnings
+Error   :     2 errors
+Error   : Check the full log for details
+Error   : ------------------------------
+Info    : Writing '/home/ramiro/Projects/thermoFEM/cad/testpot.msh'...
+Info    : Done writing '/home/ramiro/Projects/thermoFEM/cad/testpot.msh'
+Info    : Saving database '/home/ramiro/Projects/thermoFEM/cad/testpot.db'...
+Info    : Done saving database '/home/ramiro/Projects/thermoFEM/cad/testpot.db'
+Info    : Done
+Info    : Calling '"/home/ramiro/Downloads/getdp-2.11.0-Linux/bin/getdp"   "/home/ramiro/Projects/thermoFEM/cad/testpot.pro"    -onelab "getDP" /home/ramiro/.gmshsock2 &'
+Info    : Running 'getDP'...
+Info    : getDP - Performing ONELAB 'check'
+Info    : getDP - Running '/home/ramiro/Downloads/getdp-2.11.0-Linux/bin/getdp /home/ramiro/Projects/thermoFEM/cad/testpot.pro -onelab getDP /home/ramiro/.gmshsock2' [GetDP 2.11.0, 1 node]
+Info    : getDP - Started (Wed Mar  1 21:11:44 2017, Wall = 0.000977993s, CPU = 0.029999s, Mem = 117.371Mb, Recv/Send = 6.67572e-05/0.000530243Mb)
+Info    : getDP - Got mesh name from Onelab: '/home/ramiro/Projects/thermoFEM/cad/testpot.msh'
+Info    : getDP - Initializing Gmsh
+Info    : getDP - Loading problem definition '/home/ramiro/Projects/thermoFEM/cad/testpot.pro'
+Info    : getDP - Available Resolutions
+Info    : getDP - (1) Resolution1
+Info    : getDP - Available PostOperations
+Info    : getDP - (1) Map_u
+Info    : getDP - Stopped (Wed Mar  1 21:11:44 2017, Wall = 0.00729609s, CPU = 0.029999s, Mem = 117.371Mb, Recv/Send = 0.000869751/0.00166607Mb)
+Info    : Done running 'getDP'
+Info    : Done
+Info    : Calling '"/home/ramiro/Downloads/getdp-2.11.0-Linux/bin/getdp"   "/home/ramiro/Projects/thermoFEM/cad/testpot.pro"    -onelab "getDP" /home/ramiro/.gmshsock2 &'
+Info    : Running 'getDP'...
+Info    : getDP - Performing ONELAB 'check'
+Info    : getDP - Running '/home/ramiro/Downloads/getdp-2.11.0-Linux/bin/getdp /home/ramiro/Projects/thermoFEM/cad/testpot.pro -onelab getDP /home/ramiro/.gmshsock2' [GetDP 2.11.0, 1 node]
+Info    : getDP - Started (Wed Mar  1 21:11:45 2017, Wall = 0.00135684s, CPU = 0.023333s, Mem = 120.328Mb, Recv/Send = 6.67572e-05/0.000530243Mb)
+Info    : getDP - Got mesh name from Onelab: '/home/ramiro/Projects/thermoFEM/cad/testpot.msh'
+Info    : getDP - Initializing Gmsh
+Info    : getDP - Loading problem definition '/home/ramiro/Projects/thermoFEM/cad/testpot.pro'
+Info    : getDP - Available Resolutions
+Info    : getDP - (1) Resolution1
+Info    : getDP - Available PostOperations
+Info    : getDP - (1) Map_u
+Info    : getDP - Stopped (Wed Mar  1 21:11:45 2017, Wall = 0.00690889s, CPU = 0.026666s, Mem = 120.328Mb, Recv/Send = 0.000869751/0.00166512Mb)
+Info    : Done running 'getDP'
+Info    : Done
+Info    : Calling '"/home/ramiro/Downloads/getdp-2.11.0-Linux/bin/getdp"   "/home/ramiro/Projects/thermoFEM/cad/testpot.pro"  -solve -pos  -onelab "getDP" /home/ramiro/.gmshsock2 &'
+Info    : Running 'getDP'...
+Info    : getDP - Performing ONELAB 'compute'
+Info    : getDP - Running '/home/ramiro/Downloads/getdp-2.11.0-Linux/bin/getdp /home/ramiro/Projects/thermoFEM/cad/testpot.pro -solve -pos -onelab getDP /home/ramiro/.gmshsock2' [GetDP 2.11.0, 1 node]
+Info    : getDP - Started (Wed Mar  1 21:11:47 2017, Wall = 0.000939131s, CPU = 0.019999s, Mem = 115.926Mb, Recv/Send = 6.86646e-05/0.000543594Mb)
+Info    : getDP - Got mesh name from Onelab: '/home/ramiro/Projects/thermoFEM/cad/testpot.msh'
+Info    : getDP - Initializing Gmsh
+Info    : getDP - Loading problem definition '/home/ramiro/Projects/thermoFEM/cad/testpot.pro'
+Info    : getDP - Selected Resolution 'Resolution1'
+Info    : getDP - Loading Geometric data '/home/ramiro/Projects/thermoFEM/cad/testpot.msh'
+Info    : getDP - System 'Syst' : Real
+Info    : getDP - P r e - P r o c e s s i n g . . .
+Info    : getDP - Treatment Formulation 'Formulation1'
+Info    : getDP - System 1/1: 0 Dofs
+Info    : getDP - (Wall = 0.00573015s, CPU = 0.029999s, Mem = 115.926Mb, Recv/Send = 0.000940323/0.00196648Mb)
+Info    : getDP - E n d   P r e - P r o c e s s i n g
+Info    : getDP - P r o c e s s i n g . . .
+Info    : getDP - Generate[Syst]
+Warning : getDP - Generated system is of dimension zero
+Info    : getDP - Solve[Syst]
+Warning : getDP - Zero-size system: skipping solve!
+Info    : getDP - SaveSolution[Syst]
+Info    : getDP - (Wall = 0.0125082s, CPU = 0.036666s, Mem = 115.926Mb, Recv/Send = 0.00121498/0.00283909Mb)
+Info    : getDP - E n d   P r o c e s s i n g
+Info    : getDP - P o s t - P r o c e s s i n g . . .
+Info    : getDP - NameOfSystem not set in PostProcessing: selected 'Syst'
+Info    : getDP - Selected PostProcessing 'PostProc1'
+Info    : getDP - Selected Mesh '/home/ramiro/Projects/thermoFEM/cad/testpot.msh'
+Info    : getDP - PostOperation 1/1 
+Info    : getDP -           > '/home/ramiro/Projects/thermoFEM/cad/outfile.pos'
+Info    : Reading '/home/ramiro/Projects/thermoFEM/cad/outfile.pos'...
+Info    : Done reading '/home/ramiro/Projects/thermoFEM/cad/outfile.pos'
+Info    : getDP - (Wall = 0.0245919s, CPU = 0.039999s, Mem = 115.926Mb, Recv/Send = 0.00145245/0.00368595Mb)
+Info    : getDP - E n d   P o s t - P r o c e s s i n g
+Info    : getDP - Stopped (Wed Mar  1 21:11:47 2017, Wall = 0.024637s, CPU = 0.039999s, Mem = 115.926Mb, Recv/Send = 0.00145245/0.00382233Mb)
+Info    : Done running 'getDP'
+Info    : Saving database '/home/ramiro/Projects/thermoFEM/cad/testpot.db'...
+Info    : Done saving database '/home/ramiro/Projects/thermoFEM/cad/testpot.db'
+Info    : Done
+Info    : Reading '/home/ramiro/Projects/thermoFEM/cad/testpot.geo'...
+Info    : Reading '/home/ramiro/Projects/thermoFEM/cad/testpot.stl'...
+Info    : Mesh is in binary format
+Info    : 172 facets in solid 0
+Info    : Done reading '/home/ramiro/Projects/thermoFEM/cad/testpot.stl'
+Info    : Done reading '/home/ramiro/Projects/thermoFEM/cad/testpot.geo'
+Info    : Calling '"/home/ramiro/Downloads/getdp-2.11.0-Linux/bin/getdp"   "/home/ramiro/Projects/thermoFEM/cad/testpot.pro"    -onelab "getDP" /home/ramiro/.gmshsock2 &'
+Info    : Running 'getDP'...
+Info    : getDP - Performing ONELAB 'check'
+Info    : getDP - Running '/home/ramiro/Downloads/getdp-2.11.0-Linux/bin/getdp /home/ramiro/Projects/thermoFEM/cad/testpot.pro -onelab getDP /home/ramiro/.gmshsock2' [GetDP 2.11.0, 1 node]
+Info    : getDP - Started (Wed Mar  1 21:11:49 2017, Wall = 0.000849962s, CPU = 0.026666s, Mem = 122.625Mb, Recv/Send = 6.67572e-05/0.000530243Mb)
+Info    : getDP - Got mesh name from Onelab: '/home/ramiro/Projects/thermoFEM/cad/testpot.msh'
+Info    : getDP - Initializing Gmsh
+Info    : getDP - Loading problem definition '/home/ramiro/Projects/thermoFEM/cad/testpot.pro'
+Info    : getDP - Available Resolutions
+Info    : getDP - (1) Resolution1
+Info    : getDP - Available PostOperations
+Info    : getDP - (1) Map_u
+Info    : getDP - Stopped (Wed Mar  1 21:11:49 2017, Wall = 0.00310993s, CPU = 0.029999s, Mem = 122.625Mb, Recv/Send = 0.000869751/0.00166607Mb)
+Info    : Done running 'getDP'
+Info    : Done
+Info    : Refining mesh...
+Info    : Meshing order 2 (curvilinear on)...
+Info    : Meshing surface 1 order 2
+Info    : Meshing volume 3 order 2
+Info    : Finalized high order topology of periodic connections
+Info    : Surface mesh: worst distortion = 1 (0 elements in ]0, 0.2]); worst gamma = 0.0443421
+Info    : Done meshing order 2 (0.003334 s)
+Info    : Done refining mesh (0.003334 s)
+Info    : Refining mesh...
+Info    : Meshing order 2 (curvilinear on)...
+Info    : Meshing surface 1 order 2
+Info    : Meshing volume 3 order 2
+Info    : Finalized high order topology of periodic connections
+Info    : Surface mesh: worst distortion = 1 (0 elements in ]0, 0.2]); worst gamma = 0.0443421
+Info    : Done meshing order 2 (0.003333 s)
+Info    : Done refining mesh (0.006666 s)
+Info    : Finalized high order topology of periodic connections
+Info    : Meshing 1D...
+Info    : Done meshing 1D (0 s)
+Info    : Meshing 2D...
+Info    : Done meshing 2D (0.000302076 s)
+Info    : Meshing 3D...
+Info    : Delaunay Meshing 1 volumes with 1 connected components
+Info    : Meshing volume 3 (Delaunay)
+Info    : 1378 points 6357 edges and 2752 faces in the initial mesh
+Info    : Found region 3
+Info    : 0 points created - Worst tet radius is 1.28123 (PTS removed 0 0)
+Info    : 3D point insertion terminated (1400 points created):
+Info    :  - 0 Delaunay cavities modified for star shapeness
+Info    :  - 0 points could not be inserted
+Info    :  - 4044 tetrahedra created in 0.01 sec. (404400 tets/sec.)
+Info    : Done meshing 3D (0.096667 s)
+Info    : 1400 vertices 6796 elements
+Info    : Optimizing 3D mesh...
+Info    : Optimizing volume 3
+Info    : Opti : START with  6.93574E+04 QBAD  1.37856E-03 QAVG  1.24096E-01
+Info    : Opti : 0.00 < QUAL < 0.10 :      2688 elements
+Info    : Opti : 0.10 < QUAL < 0.20 :       820 elements
+Info    : Opti : 0.20 < QUAL < 0.30 :        23 elements
+Info    : Opti : 0.30 < QUAL < 0.40 :       176 elements
+Info    : Opti : 0.40 < QUAL < 0.50 :       155 elements
+Info    : Opti : 0.50 < QUAL < 0.60 :        97 elements
+Info    : Opti : 0.60 < QUAL < 0.70 :        56 elements
+Info    : Opti : 0.70 < QUAL < 0.80 :        21 elements
+Info    : Opti : 0.80 < QUAL < 0.90 :         6 elements
+Info    : Opti : 0.90 < QUAL < 1.00 :         2 elements
+Info    : Opti : (378,0,20) =  6.93574E+04 QBAD  2.61525E-03 QAVG  1.26638E-01 (   0.180 sec)
+Info    : Opti : (462,3,40) =  6.93574E+04 QBAD  1.75733E-02 QAVG  1.27130E-01 (   0.353 sec)
+Info    : Opti : (516,5,49) =  6.93574E+04 QBAD  1.75733E-02 QAVG  1.27408E-01 (   0.527 sec)
+Info    : Opti : (574,6,63) =  6.93574E+04 QBAD  1.75733E-02 QAVG  1.27825E-01 (   0.697 sec)
+Info    : Opti : (609,8,77) =  6.93574E+04 QBAD  1.75733E-02 QAVG  1.28316E-01 (   0.863 sec)
+Info    : Opti : (636,10,92) =  6.93574E+04 QBAD  1.75733E-02 QAVG  1.28542E-01 (   1.030 sec)
+Info    : Opti : (651,11,101) =  6.93574E+04 QBAD  1.75733E-02 QAVG  1.28537E-01 (   1.193 sec)
+Info    : Opti : (666,12,121) =  6.93574E+04 QBAD  1.75733E-02 QAVG  1.28469E-01 (   1.357 sec)
+Info    : Opti : (674,13,134) =  6.93574E+04 QBAD  1.75733E-02 QAVG  1.28587E-01 (   1.520 sec)
+Info    : Opti : (683,13,140) =  6.93574E+04 QBAD  1.75733E-02 QAVG  1.28756E-01 (   1.687 sec)
+Info    : Opti : (690,13,145) =  6.93574E+04 QBAD  1.75733E-02 QAVG  1.28760E-01 (   1.847 sec)
+Info    : Opti : (694,14,151) =  6.93574E+04 QBAD  1.75733E-02 QAVG  1.28667E-01 (   2.007 sec)
+Info    : Opti : (695,14,158) =  6.93574E+04 QBAD  1.75733E-02 QAVG  1.28679E-01 (   2.167 sec)
+Info    : Opti : 2483 ill-shaped tets are still in the mesh
+Info    : Opti : 0.00 < QUAL < 0.10 :      2483 elements
+Info    : Opti : 0.10 < QUAL < 0.20 :       857 elements
+Info    : Opti : 0.20 < QUAL < 0.30 :        29 elements
+Info    : Opti : 0.30 < QUAL < 0.40 :       178 elements
+Info    : Opti : 0.40 < QUAL < 0.50 :       165 elements
+Info    : Opti : 0.50 < QUAL < 0.60 :        95 elements
+Info    : Opti : 0.60 < QUAL < 0.70 :        35 elements
+Info    : Opti : 0.70 < QUAL < 0.80 :        26 elements
+Info    : Opti : 0.80 < QUAL < 0.90 :         8 elements
+Info    : Opti : 0.90 < QUAL < 1.00 :         2 elements
+Info    : Done optimizing 3D mesh (2.22333 s)
+Info    : Writing '/home/ramiro/Projects/thermoFEM/cad/testpot.msh'...
+Info    : Done writing '/home/ramiro/Projects/thermoFEM/cad/testpot.msh'
+Info    : Finalized high order topology of periodic connections
+Info    : Meshing 1D...
+Info    : Done meshing 1D (0 s)
+Info    : Meshing 2D...
+Info    : Done meshing 2D (6.00815e-05 s)
+Info    : Meshing 3D...
+Info    : Delaunay Meshing 1 volumes with 1 connected components
+Info    : Meshing volume 3 (Delaunay)
+Error   : Self intersecting surface mesh, computing intersections (this could take a while)
+Error   : Surface mesh is wrong, cannot do the 3D mesh
+Info    : Done meshing 3D (0 s)
+Info    : 0 vertices 0 elements
+Error   : ------------------------------
+Error   : Mesh generation error summary
+Error   :     0 warnings
+Error   :     2 errors
+Error   : Check the full log for details
+Error   : ------------------------------
+Info    : Writing '/home/ramiro/Projects/thermoFEM/cad/testpot.msh'...
+Info    : Done writing '/home/ramiro/Projects/thermoFEM/cad/testpot.msh'
+Info    : Calling '"/home/ramiro/Downloads/getdp-2.11.0-Linux/bin/getdp"   "/home/ramiro/Projects/thermoFEM/cad/testpot.pro"  -solve -pos  -onelab "getDP" /home/ramiro/.gmshsock2 &'
+Info    : Running 'getDP'...
+Info    : getDP - Performing ONELAB 'compute'
+Info    : getDP - Running '/home/ramiro/Downloads/getdp-2.11.0-Linux/bin/getdp /home/ramiro/Projects/thermoFEM/cad/testpot.pro -solve -pos -onelab getDP /home/ramiro/.gmshsock2' [GetDP 2.11.0, 1 node]
+Info    : getDP - Started (Wed Mar  1 21:12:47 2017, Wall = 0.000912189s, CPU = 0.019999s, Mem = 100.602Mb, Recv/Send = 6.86646e-05/0.000543594Mb)
+Info    : getDP - Got mesh name from Onelab: '/home/ramiro/Projects/thermoFEM/cad/testpot.msh'
+Info    : getDP - Initializing Gmsh
+Info    : getDP - Loading problem definition '/home/ramiro/Projects/thermoFEM/cad/testpot.pro'
+Info    : getDP - Selected Resolution 'Resolution1'
+Info    : getDP - Loading Geometric data '/home/ramiro/Projects/thermoFEM/cad/testpot.msh'
+Info    : getDP - System 'Syst' : Real
+Info    : getDP - P r e - P r o c e s s i n g . . .
+Info    : getDP - Treatment Formulation 'Formulation1'
+Info    : getDP - System 1/1: 0 Dofs
+Info    : getDP - (Wall = 0.00329518s, CPU = 0.019999s, Mem = 100.602Mb, Recv/Send = 0.000940323/0.00196648Mb)
+Info    : getDP - E n d   P r e - P r o c e s s i n g
+Info    : getDP - P r o c e s s i n g . . .
+Info    : getDP - Generate[Syst]
+Warning : getDP - Generated system is of dimension zero
+Info    : getDP - Solve[Syst]
+Warning : getDP - Zero-size system: skipping solve!
+Info    : getDP - SaveSolution[Syst]
+Info    : getDP - (Wall = 0.0052712s, CPU = 0.023333s, Mem = 100.602Mb, Recv/Send = 0.00121498/0.00283909Mb)
+Info    : getDP - E n d   P r o c e s s i n g
+Info    : getDP - P o s t - P r o c e s s i n g . . .
+Info    : getDP - NameOfSystem not set in PostProcessing: selected 'Syst'
+Info    : getDP - Selected PostProcessing 'PostProc1'
+Info    : getDP - Selected Mesh '/home/ramiro/Projects/thermoFEM/cad/testpot.msh'
+Info    : getDP - PostOperation 1/1 
+Info    : getDP -           > '/home/ramiro/Projects/thermoFEM/cad/outfile.pos'
+Info    : Reading '/home/ramiro/Projects/thermoFEM/cad/outfile.pos'...
+Info    : Done reading '/home/ramiro/Projects/thermoFEM/cad/outfile.pos'
+Info    : getDP - (Wall = 0.0132692s, CPU = 0.023333s, Mem = 100.602Mb, Recv/Send = 0.00145245/0.00368595Mb)
+Info    : getDP - E n d   P o s t - P r o c e s s i n g
+Info    : getDP - Stopped (Wed Mar  1 21:12:47 2017, Wall = 0.013309s, CPU = 0.023333s, Mem = 100.602Mb, Recv/Send = 0.00145245/0.00382233Mb)
+Info    : Done running 'getDP'
+Info    : Saving database '/home/ramiro/Projects/thermoFEM/cad/testpot.db'...
+Info    : Done saving database '/home/ramiro/Projects/thermoFEM/cad/testpot.db'
+Info    : Done
+Info    : Reading '/home/ramiro/Projects/thermoFEM/cad/testpot.geo'...
+Info    : Reading '/home/ramiro/Projects/thermoFEM/cad/testpot.stl'...
+Info    : Mesh is in binary format
+Info    : 172 facets in solid 0
+Info    : Done reading '/home/ramiro/Projects/thermoFEM/cad/testpot.stl'
+Info    : Done reading '/home/ramiro/Projects/thermoFEM/cad/testpot.geo'
+Info    : Finalized high order topology of periodic connections
+Info    : Meshing 1D...
+Info    : Done meshing 1D (0 s)
+Info    : Meshing 2D...
+Info    : Done meshing 2D (7.70092e-05 s)
+Info    : Meshing 3D...
+Info    : Delaunay Meshing 1 volumes with 1 connected components
+Info    : Meshing volume 3 (Delaunay)
+Error   : Self intersecting surface mesh, computing intersections (this could take a while)
+Error   : Surface mesh is wrong, cannot do the 3D mesh
+Info    : Done meshing 3D (0 s)
+Info    : 0 vertices 0 elements
+Error   : ------------------------------
+Error   : Mesh generation error summary
+Error   :     0 warnings
+Error   :     2 errors
+Error   : Check the full log for details
+Error   : ------------------------------
+Info    : Writing '/home/ramiro/Projects/thermoFEM/cad/testpot.msh'...
+Info    : Done writing '/home/ramiro/Projects/thermoFEM/cad/testpot.msh'
+Info    : Saving database '/home/ramiro/Projects/thermoFEM/cad/testpot.db'...
+Info    : Done saving database '/home/ramiro/Projects/thermoFEM/cad/testpot.db'
+Info    : Done
+Info    : Calling '"/home/ramiro/Downloads/getdp-2.11.0-Linux/bin/getdp"   "/home/ramiro/Projects/thermoFEM/cad/testpot.pro"  -solve -pos  -onelab "getDP" /home/ramiro/.gmshsock2 &'
+Info    : Running 'getDP'...
+Info    : getDP - Performing ONELAB 'compute'
+Info    : getDP - Running '/home/ramiro/Downloads/getdp-2.11.0-Linux/bin/getdp /home/ramiro/Projects/thermoFEM/cad/testpot.pro -solve -pos -onelab getDP /home/ramiro/.gmshsock2' [GetDP 2.11.0, 1 node]
+Info    : getDP - Started (Wed Mar  1 21:12:51 2017, Wall = 0.000524998s, CPU = 0.026666s, Mem = 124.469Mb, Recv/Send = 6.86646e-05/0.000543594Mb)
+Info    : getDP - Got mesh name from Onelab: '/home/ramiro/Projects/thermoFEM/cad/testpot.msh'
+Info    : getDP - Initializing Gmsh
+Info    : getDP - Loading problem definition '/home/ramiro/Projects/thermoFEM/cad/testpot.pro'
+Info    : getDP - Selected Resolution 'Resolution1'
+Info    : getDP - Loading Geometric data '/home/ramiro/Projects/thermoFEM/cad/testpot.msh'
+Info    : getDP - System 'Syst' : Real
+Info    : getDP - P r e - P r o c e s s i n g . . .
+Info    : getDP - Treatment Formulation 'Formulation1'
+Info    : getDP - System 1/1: 0 Dofs
+Info    : getDP - (Wall = 0.00316715s, CPU = 0.026666s, Mem = 124.469Mb, Recv/Send = 0.000940323/0.00196648Mb)
+Info    : getDP - E n d   P r e - P r o c e s s i n g
+Info    : getDP - P r o c e s s i n g . . .
+Info    : getDP - Generate[Syst]
+Warning : getDP - Generated system is of dimension zero
+Info    : getDP - Solve[Syst]
+Warning : getDP - Zero-size system: skipping solve!
+Info    : getDP - SaveSolution[Syst]
+Info    : getDP - (Wall = 0.00511003s, CPU = 0.026666s, Mem = 124.469Mb, Recv/Send = 0.00121498/0.00283909Mb)
+Info    : getDP - E n d   P r o c e s s i n g
+Info    : getDP - P o s t - P r o c e s s i n g . . .
+Info    : getDP - NameOfSystem not set in PostProcessing: selected 'Syst'
+Info    : getDP - Selected PostProcessing 'PostProc1'
+Info    : getDP - Selected Mesh '/home/ramiro/Projects/thermoFEM/cad/testpot.msh'
+Info    : getDP - PostOperation 1/1 
+Info    : getDP -           > '/home/ramiro/Projects/thermoFEM/cad/outfile.pos'
+Info    : Reading '/home/ramiro/Projects/thermoFEM/cad/outfile.pos'...
+Info    : Done reading '/home/ramiro/Projects/thermoFEM/cad/outfile.pos'
+Info    : getDP - (Wall = 0.0141282s, CPU = 0.026666s, Mem = 124.469Mb, Recv/Send = 0.00145245/0.0036869Mb)
+Info    : getDP - E n d   P o s t - P r o c e s s i n g
+Info    : getDP - Stopped (Wed Mar  1 21:12:51 2017, Wall = 0.0141692s, CPU = 0.026666s, Mem = 124.469Mb, Recv/Send = 0.00145245/0.00382233Mb)
+Info    : Done running 'getDP'
+Info    : Saving database '/home/ramiro/Projects/thermoFEM/cad/testpot.db'...
+Info    : Done saving database '/home/ramiro/Projects/thermoFEM/cad/testpot.db'
+Info    : Done
+Info    : Reading '/home/ramiro/Projects/thermoFEM/cad/testpot.geo'...
+Info    : Reading '/home/ramiro/Projects/thermoFEM/cad/testpot.stl'...
+Info    : Mesh is in binary format
+Info    : 172 facets in solid 0
+Info    : Done reading '/home/ramiro/Projects/thermoFEM/cad/testpot.stl'
+Info    : Done reading '/home/ramiro/Projects/thermoFEM/cad/testpot.geo'
+Info    : Calling '"/home/ramiro/Downloads/getdp-2.11.0-Linux/bin/getdp"   "/home/ramiro/Projects/thermoFEM/cad/testpot.pro"    -onelab "getDP" /home/ramiro/.gmshsock2 &'
+Info    : Running 'getDP'...
+Info    : getDP - Performing ONELAB 'check'
+Info    : getDP - Running '/home/ramiro/Downloads/getdp-2.11.0-Linux/bin/getdp /home/ramiro/Projects/thermoFEM/cad/testpot.pro -onelab getDP /home/ramiro/.gmshsock2' [GetDP 2.11.0, 1 node]
+Info    : getDP - Started (Wed Mar  1 21:12:53 2017, Wall = 0.000924826s, CPU = 0.029999s, Mem = 133.371Mb, Recv/Send = 6.67572e-05/0.000530243Mb)
+Info    : getDP - Got mesh name from Onelab: '/home/ramiro/Projects/thermoFEM/cad/testpot.msh'
+Info    : getDP - Initializing Gmsh
+Info    : getDP - Loading problem definition '/home/ramiro/Projects/thermoFEM/cad/testpot.pro'
+Info    : getDP - Available Resolutions
+Info    : getDP - (1) Resolution1
+Info    : getDP - Available PostOperations
+Info    : getDP - (1) Map_u
+Info    : getDP - Stopped (Wed Mar  1 21:12:53 2017, Wall = 0.00344491s, CPU = 0.029999s, Mem = 133.371Mb, Recv/Send = 0.000869751/0.00166607Mb)
+Info    : Done running 'getDP'
+Info    : Done
+Info    : Finalized high order topology of periodic connections
+Info    : Meshing 1D...
+Info    : Done meshing 1D (0 s)
+Info    : Meshing 2D...
+Info    : Done meshing 2D (0.000293016 s)
+Info    : Meshing 3D...
+Info    : Delaunay Meshing 1 volumes with 1 connected components
+Info    : Meshing volume 3 (Delaunay)
+Info    : 88 points 299 edges and 172 faces in the initial mesh
+Info    : Found region 3
+Info    : 0 points created - Worst tet radius is 0.576726 (PTS removed 0 0)
+Info    : 3D point insertion terminated (88 points created):
+Info    :  - 0 Delaunay cavities modified for star shapeness
+Info    :  - 0 points could not be inserted
+Info    :  - 126 tetrahedra created in 0.003333 sec. (37803 tets/sec.)
+Info    : Done meshing 3D (0.01 s)
+Info    : 88 vertices 298 elements
+Info    : Refining mesh...
+Info    : Meshing order 2 (curvilinear on)...
+Info    : Meshing surface 1 order 2
+Info    : Meshing volume 3 order 2
+Info    : Finalized high order topology of periodic connections
+Info    : Surface mesh: worst distortion = 1 (0 elements in ]0, 0.2]); worst gamma = 0.0443421
+Info    : Volume Mesh: worst distortion = 1 (0 elements in ]0, 0.2])
+Info    : Done meshing order 2 (0.003334 s)
+Info    : Done refining mesh (0.006667 s)
+Info    : Refining mesh...
+Info    : Meshing order 2 (curvilinear on)...
+Info    : Meshing surface 1 order 2
+Info    : Meshing volume 3 order 2
+Info    : Finalized high order topology of periodic connections
+Info    : Surface mesh: worst distortion = 1 (0 elements in ]0, 0.2]); worst gamma = 0.0443421
+Info    : Volume Mesh: worst distortion = 1 (0 elements in ]0, 0.2])
+Info    : Done meshing order 2 (0.013334 s)
+Info    : Done refining mesh (0.016667 s)
+Info    : Finalized high order topology of periodic connections
+Info    : Meshing 3D...
+Info    : Delaunay Meshing 1 volumes with 1 connected components
+Info    : Meshing volume 3 (Delaunay)
+Info    : 1378 points 6358 edges and 2752 faces in the initial mesh
+Info    : Found region 3
+Info    : 0 points created - Worst tet radius is 1.28123 (PTS removed 0 0)
+Info    : 3D point insertion terminated (1400 points created):
+Info    :  - 0 Delaunay cavities modified for star shapeness
+Info    :  - 0 points could not be inserted
+Info    :  - 4044 tetrahedra created in 0.01 sec. (404399 tets/sec.)
+Info    : Done meshing 3D (0.06 s)
+Info    : 1400 vertices 6796 elements
+Info    : Optimizing 3D mesh...
+Info    : Optimizing volume 3
+Info    : Opti : START with  6.93574E+04 QBAD  1.37856E-03 QAVG  1.24043E-01
+Info    : Opti : 0.00 < QUAL < 0.10 :      2689 elements
+Info    : Opti : 0.10 < QUAL < 0.20 :       819 elements
+Info    : Opti : 0.20 < QUAL < 0.30 :        23 elements
+Info    : Opti : 0.30 < QUAL < 0.40 :       175 elements
+Info    : Opti : 0.40 < QUAL < 0.50 :       155 elements
+Info    : Opti : 0.50 < QUAL < 0.60 :        98 elements
+Info    : Opti : 0.60 < QUAL < 0.70 :        57 elements
+Info    : Opti : 0.70 < QUAL < 0.80 :        20 elements
+Info    : Opti : 0.80 < QUAL < 0.90 :         6 elements
+Info    : Opti : 0.90 < QUAL < 1.00 :         2 elements
+Info    : Opti : (379,0,12) =  6.93574E+04 QBAD  2.61525E-03 QAVG  1.26422E-01 (   0.177 sec)
+Info    : Opti : (467,4,27) =  6.93574E+04 QBAD  1.68483E-02 QAVG  1.26648E-01 (   0.350 sec)
+Info    : Opti : (523,5,30) =  6.93574E+04 QBAD  1.75725E-02 QAVG  1.26991E-01 (   0.520 sec)
+Info    : Opti : (591,5,54) =  6.93574E+04 QBAD  1.75725E-02 QAVG  1.27956E-01 (   0.687 sec)
+Info    : Opti : (630,7,71) =  6.93574E+04 QBAD  1.75725E-02 QAVG  1.28075E-01 (   0.850 sec)
+Info    : Opti : (653,10,92) =  6.93574E+04 QBAD  1.75725E-02 QAVG  1.28130E-01 (   1.013 sec)
+Info    : Opti : (668,12,102) =  6.93574E+04 QBAD  1.75725E-02 QAVG  1.28155E-01 (   1.173 sec)
+Info    : Opti : (689,14,108) =  6.93574E+04 QBAD  1.75725E-02 QAVG  1.28308E-01 (   1.330 sec)
+Info    : Opti : (698,14,122) =  6.93574E+04 QBAD  1.75725E-02 QAVG  1.28356E-01 (   1.487 sec)
+Info    : Opti : (703,14,127) =  6.93574E+04 QBAD  1.75725E-02 QAVG  1.28311E-01 (   1.643 sec)
+Info    : Opti : (706,14,127) =  6.93574E+04 QBAD  1.75725E-02 QAVG  1.28058E-01 (   1.800 sec)
+Info    : Opti : (711,14,127) =  6.93574E+04 QBAD  1.75725E-02 QAVG  1.28006E-01 (   1.957 sec)
+Info    : Opti : (714,14,127) =  6.93574E+04 QBAD  1.75725E-02 QAVG  1.28027E-01 (   2.117 sec)
+Info    : Opti : (715,14,127) =  6.93574E+04 QBAD  1.75725E-02 QAVG  1.28078E-01 (   2.273 sec)
+Info    : Opti : 2484 ill-shaped tets are still in the mesh
+Info    : Opti : 0.00 < QUAL < 0.10 :      2484 elements
+Info    : Opti : 0.10 < QUAL < 0.20 :       849 elements
+Info    : Opti : 0.20 < QUAL < 0.30 :        26 elements
+Info    : Opti : 0.30 < QUAL < 0.40 :       180 elements
+Info    : Opti : 0.40 < QUAL < 0.50 :       172 elements
+Info    : Opti : 0.50 < QUAL < 0.60 :        89 elements
+Info    : Opti : 0.60 < QUAL < 0.70 :        37 elements
+Info    : Opti : 0.70 < QUAL < 0.80 :        25 elements
+Info    : Opti : 0.80 < QUAL < 0.90 :         5 elements
+Info    : Opti : 0.90 < QUAL < 1.00 :         2 elements
+Info    : Done optimizing 3D mesh (2.33667 s)
+Info    : Writing '/home/ramiro/Projects/thermoFEM/cad/testpot.msh'...
+Info    : Done writing '/home/ramiro/Projects/thermoFEM/cad/testpot.msh'
+Info    : Calling '"/home/ramiro/Projects/thermoFEM/getdp"   "/home/ramiro/Projects/thermoFEM/cad/testpot.pro"  -onelab "getDP" /home/ramiro/.gmshsock2 &'
+Info    : Running 'getDP'...
+Info    : getDP - Performing ONELAB 'initialize'
+Info    : Done running 'getDP'
+Info    : Done
+Info    : Resetting database
+Info    : Reading '/home/ramiro/Projects/thermoFEM/cad/testpot.geo'...
+Info    : Reading '/home/ramiro/Projects/thermoFEM/cad/testpot.stl'...
+Info    : Mesh is in binary format
+Info    : 172 facets in solid 0
+Info    : Done reading '/home/ramiro/Projects/thermoFEM/cad/testpot.stl'
+Info    : Done reading '/home/ramiro/Projects/thermoFEM/cad/testpot.geo'
+Info    : Calling '"/home/ramiro/Projects/thermoFEM/getdp"   "/home/ramiro/Projects/thermoFEM/cad/testpot.pro"    -onelab "getDP" /home/ramiro/.gmshsock2 &'
+Info    : Running 'getDP'...
+Info    : getDP - Performing ONELAB 'check'
+Info    : getDP - Running '/home/ramiro/Projects/thermoFEM/getdp /home/ramiro/Projects/thermoFEM/cad/testpot.pro -onelab getDP /home/ramiro/.gmshsock2' [GetDP 2.11.0, 1 node]
+Info    : getDP - Started (Wed Mar  1 21:14:52 2017, Wall = 0.0018189s, CPU = 0.029999s, Mem = 123.23Mb, Recv/Send = 6.67572e-05/0.000516891Mb)
+Info    : getDP - Got mesh name from Onelab: '/home/ramiro/Projects/thermoFEM/cad/testpot.msh'
+Info    : getDP - Initializing Gmsh
+Info    : getDP - Loading problem definition '/home/ramiro/Projects/thermoFEM/cad/testpot.pro'
+Info    : getDP - Available Resolutions
+Info    : getDP - (1) Resolution1
+Info    : getDP - Available PostOperations
+Info    : getDP - (1) Map_u
+Info    : getDP - Stopped (Wed Mar  1 21:14:52 2017, Wall = 0.0058229s, CPU = 0.033333s, Mem = 123.23Mb, Recv/Send = 0.000311852/0.00162697Mb)
+Info    : Done running 'getDP'
+Info    : Done
+Info    : Calling '"/home/ramiro/Projects/thermoFEM/getdp"   "/home/ramiro/Projects/thermoFEM/cad/testpot.pro"    -onelab "getDP" /home/ramiro/.gmshsock2 &'
+Info    : Running 'getDP'...
+Info    : getDP - Performing ONELAB 'check'
+Info    : getDP - Running '/home/ramiro/Projects/thermoFEM/getdp /home/ramiro/Projects/thermoFEM/cad/testpot.pro -onelab getDP /home/ramiro/.gmshsock2' [GetDP 2.11.0, 1 node]
+Info    : getDP - Started (Wed Mar  1 21:15:03 2017, Wall = 0.000680923s, CPU = 0.023333s, Mem = 105.332Mb, Recv/Send = 6.67572e-05/0.000516891Mb)
+Info    : getDP - Got mesh name from Onelab: '/home/ramiro/Projects/thermoFEM/cad/testpot.msh'
+Info    : getDP - Initializing Gmsh
+Info    : getDP - Loading problem definition '/home/ramiro/Projects/thermoFEM/cad/testpot.pro'
+Info    : getDP - Available Resolutions
+Info    : getDP - (1) Resolution1
+Info    : getDP - Available PostOperations
+Info    : getDP - (1) Map_u
+Info    : getDP - Stopped (Wed Mar  1 21:15:03 2017, Wall = 0.006073s, CPU = 0.033333s, Mem = 105.332Mb, Recv/Send = 0.000869751/0.00165272Mb)
+Info    : Done running 'getDP'
+Info    : Done
+Info    : Calling '"/home/ramiro/Projects/thermoFEM/getdp"   "/home/ramiro/Projects/thermoFEM/cad/testpot.pro"    -onelab "getDP" /home/ramiro/.gmshsock2 &'
+Info    : Running 'getDP'...
+Info    : getDP - Performing ONELAB 'check'
+Info    : getDP - Running '/home/ramiro/Projects/thermoFEM/getdp /home/ramiro/Projects/thermoFEM/cad/testpot.pro -onelab getDP /home/ramiro/.gmshsock2' [GetDP 2.11.0, 1 node]
+Info    : getDP - Started (Wed Mar  1 21:15:04 2017, Wall = 0.000934124s, CPU = 0.033333s, Mem = 110.957Mb, Recv/Send = 6.67572e-05/0.000516891Mb)
+Info    : getDP - Got mesh name from Onelab: '/home/ramiro/Projects/thermoFEM/cad/testpot.msh'
+Info    : getDP - Initializing Gmsh
+Info    : getDP - Loading problem definition '/home/ramiro/Projects/thermoFEM/cad/testpot.pro'
+Info    : getDP - Available Resolutions
+Info    : getDP - (1) Resolution1
+Info    : getDP - Available PostOperations
+Info    : getDP - (1) Map_u
+Info    : getDP - Stopped (Wed Mar  1 21:15:04 2017, Wall = 0.003335s, CPU = 0.033333s, Mem = 110.957Mb, Recv/Send = 0.000869751/0.00165272Mb)
+Info    : Done running 'getDP'
+Info    : Done
+Info    : Calling '"/home/ramiro/Projects/thermoFEM/getdp"   "/home/ramiro/Projects/thermoFEM/cad/testpot.pro"    -onelab "getDP" /home/ramiro/.gmshsock2 &'
+Info    : Running 'getDP'...
+Info    : getDP - Performing ONELAB 'check'
+Info    : getDP - Running '/home/ramiro/Projects/thermoFEM/getdp /home/ramiro/Projects/thermoFEM/cad/testpot.pro -onelab getDP /home/ramiro/.gmshsock2' [GetDP 2.11.0, 1 node]
+Info    : getDP - Started (Wed Mar  1 21:15:04 2017, Wall = 0.000473976s, CPU = 0.039999s, Mem = 138.016Mb, Recv/Send = 6.67572e-05/0.000516891Mb)
+Info    : getDP - Got mesh name from Onelab: '/home/ramiro/Projects/thermoFEM/cad/testpot.msh'
+Info    : getDP - Initializing Gmsh
+Info    : getDP - Loading problem definition '/home/ramiro/Projects/thermoFEM/cad/testpot.pro'
+Info    : getDP - Available Resolutions
+Info    : getDP - (1) Resolution1
+Info    : getDP - Available PostOperations
+Info    : getDP - (1) Map_u
+Info    : getDP - Stopped (Wed Mar  1 21:15:04 2017, Wall = 0.00735402s, CPU = 0.043333s, Mem = 138.016Mb, Recv/Send = 0.000869751/0.00165272Mb)
+Info    : Done running 'getDP'
+Info    : Done
+Info    : Calling 'terminator -e 'vim /home/ramiro/Projects/thermoFEM/cad/testpot.geo' &'
+Info    : Calling '"/home/ramiro/Projects/thermoFEM/getdp"   "/home/ramiro/Projects/thermoFEM/cad/testpot.pro"    -onelab "getDP" /home/ramiro/.gmshsock2 &'
+Info    : Running 'getDP'...
+Info    : getDP - Performing ONELAB 'check'
+Info    : getDP - Running '/home/ramiro/Projects/thermoFEM/getdp /home/ramiro/Projects/thermoFEM/cad/testpot.pro -onelab getDP /home/ramiro/.gmshsock2' [GetDP 2.11.0, 1 node]
+Info    : getDP - Started (Wed Mar  1 21:15:10 2017, Wall = 0.00108194s, CPU = 0.026666s, Mem = 132.293Mb, Recv/Send = 6.67572e-05/0.000516891Mb)
+Info    : getDP - Got mesh name from Onelab: '/home/ramiro/Projects/thermoFEM/cad/testpot.msh'
+Info    : getDP - Initializing Gmsh
+Info    : getDP - Loading problem definition '/home/ramiro/Projects/thermoFEM/cad/testpot.pro'
+Info    : getDP - Available Resolutions
+Info    : getDP - (1) Resolution1
+Info    : getDP - Available PostOperations
+Info    : getDP - (1) Map_u
+Info    : getDP - Stopped (Wed Mar  1 21:15:10 2017, Wall = 0.00934792s, CPU = 0.033333s, Mem = 132.293Mb, Recv/Send = 0.000869751/0.00165176Mb)
+Info    : Done running 'getDP'
+Info    : Done
+Info    : Finalized high order topology of periodic connections
+Info    : Meshing 1D...
+Info    : Done meshing 1D (0 s)
+Info    : 88 vertices 172 elements
+Info    : Finalized high order topology of periodic connections
+Info    : Meshing 1D...
+Info    : Done meshing 1D (0 s)
+Info    : Meshing 2D...
+Info    : Done meshing 2D (0.000250101 s)
+Info    : 88 vertices 172 elements
+Info    : Finalized high order topology of periodic connections
+Info    : Meshing 1D...
+Info    : Done meshing 1D (0 s)
+Info    : Meshing 2D...
+Info    : Done meshing 2D (0.000221968 s)
+Info    : 88 vertices 172 elements
+Info    : Refining mesh...
+Info    : Meshing order 2 (curvilinear on)...
+Info    : Meshing surface 1 order 2
+Info    : Meshing volume 3 order 2
+Info    : Finalized high order topology of periodic connections
+Info    : Surface mesh: worst distortion = 1 (0 elements in ]0, 0.2]); worst gamma = 0.0443421
+Info    : Done meshing order 2 (0.003334 s)
+Info    : Done refining mesh (0.003334 s)
+Info    : Finalized high order topology of periodic connections
+Info    : Meshing 1D...
+Info    : Done meshing 1D (0 s)
+Info    : Meshing 2D...
+Info    : Done meshing 2D (0.000228167 s)
+Info    : 346 vertices 688 elements
+Info    : Refining mesh...
+Info    : Meshing order 2 (curvilinear on)...
+Info    : Meshing surface 1 order 2
+Info    : Meshing volume 3 order 2
+Info    : Finalized high order topology of periodic connections
+Info    : Surface mesh: worst distortion = 1 (0 elements in ]0, 0.2]); worst gamma = 0.0443421
+Info    : Done meshing order 2 (0.003333 s)
+Info    : Done refining mesh (0.006667 s)
+Info    : Finalized high order topology of periodic connections
+Info    : Meshing 1D...
+Info    : Done meshing 1D (0 s)
+Info    : Meshing 2D...
+Info    : Done meshing 2D (0.000224829 s)
+Info    : 1378 vertices 2752 elements
+Info    : Finalized high order topology of periodic connections
+Info    : Meshing 1D...
+Info    : Done meshing 1D (0 s)
+Info    : Meshing 2D...
+Info    : Done meshing 2D (0.000231028 s)
+Info    : Meshing 3D...
+Info    : Delaunay Meshing 1 volumes with 1 connected components
+Info    : Meshing volume 3 (Delaunay)
+Info    : 1378 points 6357 edges and 2752 faces in the initial mesh
+Info    : Found region 3
+Info    : 0 points created - Worst tet radius is 1.28123 (PTS removed 0 0)
+Info    : 3D point insertion terminated (1400 points created):
+Info    :  - 0 Delaunay cavities modified for star shapeness
+Info    :  - 0 points could not be inserted
+Info    :  - 4044 tetrahedra created in 0.01 sec. (404399 tets/sec.)
+Info    : Done meshing 3D (0.09 s)
+Info    : 1400 vertices 6796 elements
+Info    : Optimizing 3D mesh...
+Info    : Optimizing volume 3
+Info    : Opti : START with  6.93574E+04 QBAD  1.37856E-03 QAVG  1.24115E-01
+Info    : Opti : 0.00 < QUAL < 0.10 :      2688 elements
+Info    : Opti : 0.10 < QUAL < 0.20 :       820 elements
+Info    : Opti : 0.20 < QUAL < 0.30 :        24 elements
+Info    : Opti : 0.30 < QUAL < 0.40 :       176 elements
+Info    : Opti : 0.40 < QUAL < 0.50 :       152 elements
+Info    : Opti : 0.50 < QUAL < 0.60 :        99 elements
+Info    : Opti : 0.60 < QUAL < 0.70 :        56 elements
+Info    : Opti : 0.70 < QUAL < 0.80 :        21 elements
+Info    : Opti : 0.80 < QUAL < 0.90 :         6 elements
+Info    : Opti : 0.90 < QUAL < 1.00 :         2 elements
+Info    : Opti : (388,0,16) =  6.93574E+04 QBAD  2.61525E-03 QAVG  1.26594E-01 (   0.177 sec)
+Info    : Opti : (474,3,40) =  6.93574E+04 QBAD  1.68483E-02 QAVG  1.26965E-01 (   0.347 sec)
+Info    : Opti : (531,5,52) =  6.93574E+04 QBAD  1.75733E-02 QAVG  1.27385E-01 (   0.513 sec)
+Info    : Opti : (597,6,71) =  6.93574E+04 QBAD  1.75733E-02 QAVG  1.27683E-01 (   0.677 sec)
+Info    : Opti : (628,8,90) =  6.93574E+04 QBAD  1.75733E-02 QAVG  1.28222E-01 (   0.837 sec)
+Info    : Opti : (654,10,109) =  6.93574E+04 QBAD  1.75733E-02 QAVG  1.28381E-01 (   0.997 sec)
+Info    : Opti : (665,11,118) =  6.93574E+04 QBAD  1.75733E-02 QAVG  1.28394E-01 (   1.157 sec)
+Info    : Opti : (678,12,121) =  6.93574E+04 QBAD  1.75733E-02 QAVG  1.28549E-01 (   1.313 sec)
+Info    : Opti : (692,12,139) =  6.93574E+04 QBAD  1.75733E-02 QAVG  1.28596E-01 (   1.467 sec)
+Info    : Opti : (701,12,142) =  6.93574E+04 QBAD  1.75733E-02 QAVG  1.28584E-01 (   1.623 sec)
+Info    : Opti : (705,12,145) =  6.93574E+04 QBAD  1.75733E-02 QAVG  1.28532E-01 (   1.777 sec)
+Info    : Opti : (706,12,154) =  6.93574E+04 QBAD  1.75733E-02 QAVG  1.28542E-01 (   1.933 sec)
+Info    : Opti : 2482 ill-shaped tets are still in the mesh
+Info    : Opti : 0.00 < QUAL < 0.10 :      2482 elements
+Info    : Opti : 0.10 < QUAL < 0.20 :       846 elements
+Info    : Opti : 0.20 < QUAL < 0.30 :        31 elements
+Info    : Opti : 0.30 < QUAL < 0.40 :       184 elements
+Info    : Opti : 0.40 < QUAL < 0.50 :       166 elements
+Info    : Opti : 0.50 < QUAL < 0.60 :        85 elements
+Info    : Opti : 0.60 < QUAL < 0.70 :        40 elements
+Info    : Opti : 0.70 < QUAL < 0.80 :        26 elements
+Info    : Opti : 0.80 < QUAL < 0.90 :         7 elements
+Info    : Opti : 0.90 < QUAL < 1.00 :         2 elements
+Info    : Done optimizing 3D mesh (1.99333 s)
+Info    : Writing '/home/ramiro/Projects/thermoFEM/cad/testpot.msh'...
+Info    : Done writing '/home/ramiro/Projects/thermoFEM/cad/testpot.msh'
+Info    : Calling '"/home/ramiro/Projects/thermoFEM/getdp"   "/home/ramiro/Projects/thermoFEM/cad/testpot.pro"    -onelab "getDP" /home/ramiro/.gmshsock2 &'
+Info    : Running 'getDP'...
+Info    : getDP - Performing ONELAB 'check'
+Info    : getDP - Running '/home/ramiro/Projects/thermoFEM/getdp /home/ramiro/Projects/thermoFEM/cad/testpot.pro -onelab getDP /home/ramiro/.gmshsock2' [GetDP 2.11.0, 1 node]
+Info    : getDP - Started (Wed Mar  1 21:15:45 2017, Wall = 0.00102186s, CPU = 0.023333s, Mem = 126.242Mb, Recv/Send = 6.67572e-05/0.000516891Mb)
+Info    : getDP - Got mesh name from Onelab: '/home/ramiro/Projects/thermoFEM/cad/testpot.msh'
+Info    : getDP - Initializing Gmsh
+Info    : getDP - Loading problem definition '/home/ramiro/Projects/thermoFEM/cad/testpot.pro'
+Info    : getDP - Available Resolutions
+Info    : getDP - (1) Resolution1
+Info    : getDP - Available PostOperations
+Info    : getDP - (1) Map_u
+Info    : getDP - Stopped (Wed Mar  1 21:15:45 2017, Wall = 0.00622702s, CPU = 0.023333s, Mem = 127.66Mb, Recv/Send = 0.000869751/0.00165176Mb)
+Info    : Done running 'getDP'
+Info    : Done
+Info    : Calling '"/home/ramiro/Projects/thermoFEM/getdp"   "/home/ramiro/Projects/thermoFEM/cad/testpot.pro"    -onelab "getDP" /home/ramiro/.gmshsock2 &'
+Info    : Running 'getDP'...
+Info    : getDP - Performing ONELAB 'check'
+Info    : getDP - Running '/home/ramiro/Projects/thermoFEM/getdp /home/ramiro/Projects/thermoFEM/cad/testpot.pro -onelab getDP /home/ramiro/.gmshsock2' [GetDP 2.11.0, 1 node]
+Info    : getDP - Started (Wed Mar  1 21:16:04 2017, Wall = 0.000658989s, CPU = 0.029999s, Mem = 122.949Mb, Recv/Send = 6.67572e-05/0.000516891Mb)
+Info    : getDP - Got mesh name from Onelab: '/home/ramiro/Projects/thermoFEM/cad/testpot.msh'
+Info    : getDP - Initializing Gmsh
+Info    : getDP - Loading problem definition '/home/ramiro/Projects/thermoFEM/cad/testpot.pro'
+Info    : getDP - Available Resolutions
+Info    : getDP - (1) Resolution1
+Info    : getDP - Available PostOperations
+Info    : getDP - (1) Map_u
+Info    : getDP - Stopped (Wed Mar  1 21:16:04 2017, Wall = 0.007092s, CPU = 0.029999s, Mem = 122.949Mb, Recv/Send = 0.000869751/0.00165272Mb)
+Info    : Done running 'getDP'
+Info    : Done
+Info    : Calling '"/home/ramiro/Projects/thermoFEM/getdp"   "/home/ramiro/Projects/thermoFEM/cad/testpot.pro"    -onelab "getDP" /home/ramiro/.gmshsock2 &'
+Info    : Running 'getDP'...
+Info    : getDP - Performing ONELAB 'check'
+Info    : getDP - Running '/home/ramiro/Projects/thermoFEM/getdp /home/ramiro/Projects/thermoFEM/cad/testpot.pro -onelab getDP /home/ramiro/.gmshsock2' [GetDP 2.11.0, 1 node]
+Info    : getDP - Started (Wed Mar  1 21:16:05 2017, Wall = 0.000925779s, CPU = 0.026666s, Mem = 98.0859Mb, Recv/Send = 6.67572e-05/0.000516891Mb)
+Info    : getDP - Got mesh name from Onelab: '/home/ramiro/Projects/thermoFEM/cad/testpot.msh'
+Info    : getDP - Initializing Gmsh
+Info    : getDP - Loading problem definition '/home/ramiro/Projects/thermoFEM/cad/testpot.pro'
+Info    : getDP - Available Resolutions
+Info    : getDP - (1) Resolution1
+Info    : getDP - Available PostOperations
+Info    : getDP - (1) Map_u
+Info    : getDP - Stopped (Wed Mar  1 21:16:05 2017, Wall = 0.00337791s, CPU = 0.029999s, Mem = 98.0859Mb, Recv/Send = 0.000869751/0.00165272Mb)
+Info    : Done running 'getDP'
+Info    : Done
+Info    : Finalized high order topology of periodic connections
+Info    : Meshing 1D...
+Info    : Done meshing 1D (0 s)
+Info    : Meshing 2D...
+Info    : Done meshing 2D (7.29561e-05 s)
+Info    : Meshing 3D...
+Info    : Delaunay Meshing 1 volumes with 1 connected components
+Info    : Meshing volume 3 (Delaunay)
+Error   : Self intersecting surface mesh, computing intersections (this could take a while)
+Error   : Surface mesh is wrong, cannot do the 3D mesh
+Info    : Done meshing 3D (0 s)
+Info    : 0 vertices 0 elements
+Error   : ------------------------------
+Error   : Mesh generation error summary
+Error   :     0 warnings
+Error   :     2 errors
+Error   : Check the full log for details
+Error   : ------------------------------
+Info    : Writing '/home/ramiro/Projects/thermoFEM/cad/testpot.msh'...
+Info    : Done writing '/home/ramiro/Projects/thermoFEM/cad/testpot.msh'
+Info    : Saving database '/home/ramiro/Projects/thermoFEM/cad/testpot.db'...
+Info    : Done saving database '/home/ramiro/Projects/thermoFEM/cad/testpot.db'
+Info    : Done
+Info    : Writing '/home/ramiro/Projects/thermoFEM/log/testpot.log'...
